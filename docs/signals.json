@@ -1,50 +1,39 @@
 {
-  "generated_at": "2026-08-23T09:00:00+09:00",
+  "generated_at": "2026-08-24T00:14:36.004350+09:00",
   "signals": [
     {
-      "market": "KRW-BTC",
-      "name": "비트코인",
-      "current_price": 61234000,
-      "buy_price": 60500000,
-      "target_price": 64130000,
-      "stop_price": 58382500,
-      "confidence": 78.4,
-      "reason": "정배열 +1.8% · 눌림 -3.4% · RSI 37 · 거래량 1.4배",
-      "signal_date": "2026-08-22",
-      "expires_at": "2026-08-25",
-      "days_left": 2,
-      "similar_patterns": { "count": 7, "avg_return_pct": 4.2, "win_rate": 71.4 },
-      "backtest": { "n_trades": 42, "win_rate": 61.9, "avg_return_pct": 2.1 }
+      "market": "KRW-PUMP",
+      "first_seen_date": "2026-08-23",
+      "current_price": 7.25,
+      "buy_price": 7.25,
+      "target_price": 8,
+      "stop_price": 7,
+      "confidence": 86.2,
+      "reason": "20일 신고가 돌파 +3.0% · 거래량 2.2배 · 정배열 +38.0% · 당일등락 +6.5%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -1.8,
+        "win_rate": 33.3
+      },
+      "name": "펌프펀"
     },
     {
-      "market": "KRW-ETH",
-      "name": "이더리움",
-      "current_price": 4120000,
-      "buy_price": 4085000,
-      "target_price": 4330000,
-      "stop_price": 3942000,
-      "confidence": 66.0,
-      "reason": "정배열 +0.9% · 눌림 -2.1% · RSI 41 · 거래량 1.1배",
-      "signal_date": "2026-08-22",
-      "expires_at": "2026-08-25",
-      "days_left": 2,
-      "similar_patterns": { "count": 5, "avg_return_pct": 2.8, "win_rate": 60.0 },
-      "backtest": { "n_trades": 37, "win_rate": 56.8, "avg_return_pct": 1.6 }
-    },
-    {
-      "market": "KRW-SOL",
-      "name": "솔라나",
-      "current_price": 268000,
-      "buy_price": 264500,
-      "target_price": 280370,
-      "stop_price": 255242,
-      "confidence": 54.2,
-      "reason": "정배열 +0.4% · 눌림 -4.8% · RSI 33 · 거래량 0.9배",
-      "signal_date": "2026-08-22",
-      "expires_at": "2026-08-25",
-      "days_left": 2,
-      "similar_patterns": { "count": 2, "avg_return_pct": 1.1, "win_rate": 50.0 },
-      "backtest": { "n_trades": 19, "win_rate": 52.6, "avg_return_pct": 0.8 }
+      "market": "KRW-ENA",
+      "first_seen_date": "2026-08-23",
+      "current_price": 235.0,
+      "buy_price": 235.0,
+      "target_price": 247,
+      "stop_price": 229,
+      "confidence": 84.6,
+      "reason": "20일 신고가 돌파 +2.6% · 거래량 2.7배 · 정배열 +10.3% · 당일등락 +8.3%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -3.1,
+        "win_rate": 33.3
+      },
+      "name": "에테나"
     }
   ]
 }
