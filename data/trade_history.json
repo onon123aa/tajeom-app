@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "market": "KRW-ENA",
+    "first_seen_date": "2026-08-23",
+    "resolved_date": "2026-08-23",
+    "buy_price": 235.0,
+    "exit_price": 227.0,
+    "exit_reason": "stop",
+    "return_pct": -3.4,
+    "confidence": 84.6
+  }
+]

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T00:14:36.004350+09:00",
+  "generated_at": "2026-08-24T01:29:29.898904+09:00",
   "signals": [
     {
       "market": "KRW-PUMP",
       "first_seen_date": "2026-08-23",
-      "current_price": 7.25,
+      "current_price": 7.07,
       "buy_price": 7.25,
       "target_price": 8,
       "stop_price": 7,
@@ -17,23 +17,6 @@
         "win_rate": 33.3
       },
       "name": "펌프펀"
-    },
-    {
-      "market": "KRW-ENA",
-      "first_seen_date": "2026-08-23",
-      "current_price": 235.0,
-      "buy_price": 235.0,
-      "target_price": 247,
-      "stop_price": 229,
-      "confidence": 84.6,
-      "reason": "20일 신고가 돌파 +2.6% · 거래량 2.7배 · 정배열 +10.3% · 당일등락 +8.3%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -3.1,
-        "win_rate": 33.3
-      },
-      "name": "에테나"
     }
   ]
 }
