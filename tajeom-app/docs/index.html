@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>타점 — 3일 단타 시그널</title>
+<meta name="description" content="업비트 코인 단타(3일 이내) 매수/매도 타이밍 신호" />
+
+<!-- PWA / iOS 홈화면 대응 -->
+<link rel="manifest" href="manifest.json" />
+<meta name="theme-color" content="#0A0D12" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="타점" />
+<link rel="apple-touch-icon" href="icons/icon-180.png" />
+
+<style>
+  :root{
+    --bg-base:#0A0D12;
+    --bg-panel:#12161D;
+    --bg-card:#171C24;
+    --border-hair:#242A35;
+    --up-red:#F0334D;
+    --down-blue:#2F7DF0;
+    --gold:#E8B84B;
+    --text-primary:#EDEFF3;
+    --text-muted:#7C8494;
+    --text-faint:#4B5261;
+    --font-ui:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    --font-mono:ui-monospace,"SF Mono","Menlo",monospace;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg-base);}
+  body{
+    color:var(--text-primary);
+    font-family:var(--font-ui);
+    -webkit-font-smoothing:antialiased;
+    min-height:100dvh;
+  }
+  .app{max-width:480px;margin:0 auto;min-height:100dvh;display:flex;flex-direction:column;}
+
+  header.topbar{
+    display:flex;justify-content:space-between;align-items:flex-start;
+    padding:max(22px, env(safe-area-inset-top)) 20px 10px;
+  }
+  .brand-mark{font-size:23px;font-weight:800;letter-spacing:-0.02em;}
+  .brand-sub{display:block;font-size:12px;color:var(--text-muted);margin-top:3px;}
+
+  .notify-btn{
+    background:var(--bg-panel);border:1px solid var(--border-hair);color:var(--text-primary);
+    border-radius:999px;padding:9px 14px;font-size:12.5px;font-weight:600;
+    font-family:var(--font-ui);white-space:nowrap;
+  }
+  .notify-btn.on{border-color:var(--gold);color:var(--gold);}
+
+  .meta-row{
+    display:flex;justify-content:space-between;padding:0 20px 16px;
+    font-size:11px;color:var(--text-faint);
+  }
+
+  #subBox{
+    display:none;margin:0 20px 16px;padding:12px 14px;background:var(--bg-panel);
+    border:1px solid var(--gold);border-radius:12px;font-size:11.5px;color:var(--text-muted);
+  }
+  #subBox p{margin:0 0 8px;color:var(--text-primary);font-weight:600;}
+  #subOutput{
+    font-family:var(--font-mono);font-size:10.5px;word-break:break-all;
+    background:var(--bg-base);padding:8px;border-radius:8px;max-height:120px;overflow:auto;
+    color:var(--text-muted);
+  }
+
+  .list{padding:0 16px 8px;display:flex;flex-direction:column;gap:14px;flex:1;}
+
+  .card{
+    position:relative;background:var(--bg-card);border:1px solid var(--border-hair);
+    border-radius:18px;padding:18px;opacity:0;transform:translateY(8px);
+    animation:rise .5s ease forwards;
+  }
+  .card:nth-child(1){animation-delay:.02s}
+  .card:nth-child(2){animation-delay:.08s}
+  .card:nth-child(3){animation-delay:.14s}
+  .card:nth-child(4){animation-delay:.2s}
+  .card:nth-child(5){animation-delay:.26s}
+  @keyframes rise{to{opacity:1;transform:none;}}
+  @media (prefers-reduced-motion: reduce){.card{animation:none;opacity:1;transform:none;}}
+
+  .dday-badge{
+    position:absolute;top:16px;right:16px;font-family:var(--font-mono);font-size:11px;
+    font-weight:700;color:var(--gold);border:1px solid var(--gold);border-radius:999px;
+    padding:2px 9px;
+  }
+
+  .card-head{display:flex;align-items:center;gap:12px;padding-right:52px;margin-bottom:16px;}
+  .rank{font-family:var(--font-mono);font-size:12px;color:var(--text-faint);width:18px;flex-shrink:0;}
+  .coin-name{font-weight:700;font-size:16px;}
+  .coin-market{font-family:var(--font-mono);font-size:10.5px;color:var(--text-muted);margin-left:6px;}
+
+  .gauge{
+    position:relative;width:44px;height:44px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-left:auto;
+  }
+  .gauge::before{
+    content:"";position:absolute;inset:0;border-radius:50%;
+    background:conic-gradient(var(--gauge-color,var(--gold)) calc(var(--pct,0) * 1%), var(--bg-panel) 0);
+  }
+  .gauge::after{content:"";position:absolute;inset:4.5px;border-radius:50%;background:var(--bg-card);}
+  .gauge span{position:relative;font-family:var(--font-mono);font-size:12px;font-weight:700;}
+
+  .ladder{margin:14px 0 10px;}
+  .ladder-track{position:relative;height:6px;border-radius:3px;overflow:visible;display:flex;background:var(--bg-panel);}
+  .ladder-track .risk{background:var(--down-blue);border-radius:3px 0 0 3px;}
+  .ladder-track .reward{background:var(--up-red);border-radius:0 3px 3px 0;}
+  .ladder-marker{
+    position:absolute;top:50%;width:13px;height:13px;border-radius:50%;
+    background:var(--text-primary);border:3px solid var(--bg-card);
+    transform:translate(-50%,-50%);
+  }
+  .ladder-labels{display:flex;justify-content:space-between;margin-top:12px;font-family:var(--font-mono);font-size:12.5px;}
+  .ladder-labels .tag{display:block;font-size:10px;color:var(--text-faint);font-family:var(--font-ui);margin-bottom:3px;}
+  .ladder-labels .stop{color:var(--down-blue);}
+  .ladder-labels .buy{color:var(--text-primary);font-weight:700;}
+  .ladder-labels .target{color:var(--up-red);}
+
+  .pills{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 12px;}
+  .pill{background:var(--bg-panel);border:1px solid var(--border-hair);color:var(--text-muted);font-size:11px;padding:4px 9px;border-radius:999px;}
+
+  .similar{font-size:12px;color:var(--text-muted);border-top:1px dashed var(--border-hair);padding-top:11px;line-height:1.5;}
+  .similar b{color:var(--text-primary);font-family:var(--font-mono);font-weight:700;}
+  .similar.insufficient{color:var(--text-faint);}
+
+  .empty{text-align:center;padding:70px 24px;color:var(--text-muted);font-size:14px;line-height:1.7;}
+  .empty .glyph{font-size:30px;margin-bottom:14px;}
+
+  .disclaimer-foot{
+    text-align:center;font-size:10.5px;color:var(--text-faint);
+    padding:6px 24px max(24px, env(safe-area-inset-bottom));
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="topbar">
+    <div>
+      <span class="brand-mark">타점</span>
+      <span class="brand-sub">3일 단타 시그널 · 업비트</span>
+    </div>
+    <button id="notifyBtn" class="notify-btn">🔕 알림 켜기</button>
+  </header>
+
+  <div class="meta-row">
+    <span id="updatedAt">업데이트 확인 중…</span>
+    <span>참고용 · 투자 권유 아님</span>
+  </div>
+
+  <div id="subBox">
+    <p>최초 1회만 하면 돼요</p>
+    이 코드가 클립보드에 복사됐어요. GitHub 저장소 <b>Settings → Secrets → Actions</b>에서
+    이름 <b>PUSH_SUBSCRIPTION</b>으로 새 시크릿을 만들고 아래 내용을 붙여넣으세요.
+    <div id="subOutput"></div>
+  </div>
+
+  <main id="list" class="list">
+    <div class="empty"><div class="glyph">⏳</div>신호를 불러오는 중이에요…</div>
+  </main>
+
+  <div class="disclaimer-foot">이 화면은 투자 판단 참고용 정보이며 투자 권유가 아닙니다.</div>
+</div>
+
+<script>
+  // ---- GitHub Pages 배포 시, generate_signals.py가 만든 VAPID 공개키로 아래 값을 교체하세요 ----
+  const VAPID_PUBLIC_KEY = "REPLACE_WITH_YOUR_VAPID_PUBLIC_KEY";
+
+  const SAMPLE_FALLBACK = {
+    "generated_at": "2026-08-23T09:00:00+09:00",
+    "signals": [
+      { "market":"KRW-BTC","name":"비트코인","current_price":61234000,"buy_price":60500000,
+        "target_price":64130000,"stop_price":58382500,"confidence":78.4,
+        "reason":"정배열 +1.8% · 눌림 -3.4% · RSI 37 · 거래량 1.4배",
+        "signal_date":"2026-08-22","expires_at":"2026-08-25","days_left":2,
+        "similar_patterns":{"count":7,"avg_return_pct":4.2,"win_rate":71.4},
+        "backtest":{"n_trades":42,"win_rate":61.9,"avg_return_pct":2.1} },
+      { "market":"KRW-ETH","name":"이더리움","current_price":4120000,"buy_price":4085000,
+        "target_price":4330000,"stop_price":3942000,"confidence":66.0,
+        "reason":"정배열 +0.9% · 눌림 -2.1% · RSI 41 · 거래량 1.1배",
+        "signal_date":"2026-08-22","expires_at":"2026-08-25","days_left":2,
+        "similar_patterns":{"count":5,"avg_return_pct":2.8,"win_rate":60.0},
+        "backtest":{"n_trades":37,"win_rate":56.8,"avg_return_pct":1.6} },
+      { "market":"KRW-SOL","name":"솔라나","current_price":268000,"buy_price":264500,
+        "target_price":280370,"stop_price":255242,"confidence":54.2,
+        "reason":"정배열 +0.4% · 눌림 -4.8% · RSI 33 · 거래량 0.9배",
+        "signal_date":"2026-08-22","expires_at":"2026-08-25","days_left":2,
+        "similar_patterns":{"count":2,"avg_return_pct":1.1,"win_rate":50.0},
+        "backtest":{"n_trades":19,"win_rate":52.6,"avg_return_pct":0.8} }
+    ]
+  };
+
+  async function loadSignals(){
+    try{
+      const res = await fetch("./signals.json", {cache:"no-store"});
+      if(!res.ok) throw new Error("no signals.json");
+      return await res.json();
+    }catch(e){
+      return SAMPLE_FALLBACK;
+    }
+  }
+
+  const won = (n) => Math.round(n).toLocaleString("ko-KR") + "원";
+  const pct = (n) => (n > 0 ? "+" : "") + n.toFixed(1) + "%";
+
+  function ladderPos(stop, buy, target){
+    const p = ((buy - stop) / (target - stop)) * 100;
+    return Math.min(94, Math.max(6, p));
+  }
+
+  function gaugeColor(score){
+    if(score >= 70) return "var(--gold)";
+    if(score >= 50) return "var(--down-blue)";
+    return "var(--text-faint)";
+  }
+
+  function renderCard(sig, idx){
+    const pos = ladderPos(sig.stop_price, sig.buy_price, sig.target_price);
+    const pills = sig.reason.split(" · ").map(r => `<span class="pill">${r}</span>`).join("");
+    const sim = sig.similar_patterns || {count:0};
+    const simHtml = sim.count >= 3
+      ? `과거 유사 패턴 <b>${sim.count}건</b> · 이후 평균 <b>${pct(sim.avg_return_pct)}</b> · 승률 <b>${sim.win_rate.toFixed(0)}%</b>`
+      : `과거 유사 패턴 ${sim.count}건 — 샘플 부족, 참고용 아님`;
+
+    return `
+    <article class="card">
+      <div class="dday-badge">D-${sig.days_left}</div>
+      <div class="card-head">
+        <div class="rank">${String(idx+1).padStart(2,"0")}</div>
+        <div>
+          <span class="coin-name">${sig.name}</span><span class="coin-market">${sig.market}</span>
+        </div>
+        <div class="gauge" style="--pct:${sig.confidence};--gauge-color:${gaugeColor(sig.confidence)}">
+          <span>${Math.round(sig.confidence)}</span>
+        </div>
+      </div>
+
+      <div class="ladder">
+        <div class="ladder-track">
+          <div class="risk" style="width:${pos}%"></div>
+          <div class="reward" style="width:${100-pos}%"></div>
+          <div class="ladder-marker" style="left:${pos}%"></div>
+        </div>
+        <div class="ladder-labels">
+          <div><span class="tag">손절</span><span class="stop">${won(sig.stop_price)}</span></div>
+          <div><span class="tag">매수</span><span class="buy">${won(sig.buy_price)}</span></div>
+          <div><span class="tag">목표</span><span class="target">${won(sig.target_price)}</span></div>
+        </div>
+      </div>
+
+      <div class="pills">${pills}</div>
+      <div class="similar ${sim.count < 3 ? "insufficient" : ""}">${simHtml}</div>
+    </article>`;
+  }
+
+  function formatUpdated(iso){
+    try{
+      return new Date(iso).toLocaleString("ko-KR", {month:"numeric", day:"numeric", hour:"2-digit", minute:"2-digit"});
+    }catch(e){ return iso; }
+  }
+
+  async function init(){
+    const data = await loadSignals();
+    document.getElementById("updatedAt").textContent = "업데이트 " + formatUpdated(data.generated_at);
+    const list = document.getElementById("list");
+    if(!data.signals || data.signals.length === 0){
+      list.innerHTML = `<div class="empty"><div class="glyph">🕯️</div>조건에 맞는 신호가 없어요.<br/>시장이 조용하거나 조건이 까다로운 상태예요.</div>`;
+      return;
+    }
+    list.innerHTML = data.signals.map(renderCard).join("");
+  }
+  init();
+
+  // ---- 웹 푸시 알림 구독 ----
+  function urlBase64ToUint8Array(base64String){
+    const padding = "=".repeat((4 - base64String.length % 4) % 4);
+    const base64 = (base64String + padding).replace(/-/g, "+").replace(/_/g, "/");
+    const rawData = atob(base64);
+    return Uint8Array.from([...rawData].map(c => c.charCodeAt(0)));
+  }
+
+  const notifyBtn = document.getElementById("notifyBtn");
+  const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent);
+  const isStandalone = window.matchMedia("(display-mode: standalone)").matches || navigator.standalone === true;
+
+  async function refreshNotifyBtn(){
+    if(!("serviceWorker" in navigator) || !("PushManager" in window)){
+      notifyBtn.textContent = "이 브라우저는 알림 미지원";
+      notifyBtn.disabled = true;
+      return;
+    }
+    const reg = await navigator.serviceWorker.getRegistration();
+    const sub = reg && await reg.pushManager.getSubscription();
+    if(sub){
+      notifyBtn.textContent = "🔔 알림 켜짐";
+      notifyBtn.classList.add("on");
+    }else{
+      notifyBtn.textContent = "🔕 알림 켜기";
+      notifyBtn.classList.remove("on");
+    }
+  }
+
+  notifyBtn?.addEventListener("click", async () => {
+    if(isIOS && !isStandalone){
+      alert("아이폰에서는 먼저 공유 버튼 → '홈 화면에 추가'로 앱을 설치한 뒤, 그 홈 화면 아이콘으로 열어서 다시 눌러주세요.");
+      return;
+    }
+    if(!("serviceWorker" in navigator) || !("PushManager" in window)){
+      alert("이 브라우저/환경은 푸시 알림을 지원하지 않아요.");
+      return;
+    }
+    if(VAPID_PUBLIC_KEY.startsWith("REPLACE_")){
+      alert("아직 VAPID 공개키가 설정되지 않았어요. scripts/generate_vapid_keys.py 실행 후 여기 값을 채워주세요.");
+      return;
+    }
+    try{
+      const perm = await Notification.requestPermission();
+      if(perm !== "granted"){ alert("알림 권한이 거부됐어요."); return; }
+
+      const reg = await navigator.serviceWorker.register("service-worker.js");
+      await navigator.serviceWorker.ready;
+
+      let sub = await reg.pushManager.getSubscription();
+      if(!sub){
+        sub = await reg.pushManager.subscribe({
+          userVisibleOnly: true,
+          applicationServerKey: urlBase64ToUint8Array(VAPID_PUBLIC_KEY)
+        });
+      }
+
+      const subJson = JSON.stringify(sub, null, 2);
+      document.getElementById("subOutput").textContent = subJson;
+      document.getElementById("subBox").style.display = "block";
+      navigator.clipboard?.writeText(subJson).catch(() => {});
+      refreshNotifyBtn();
+    }catch(e){
+      alert("알림 설정 중 문제가 발생했어요: " + e.message);
+    }
+  });
+
+  if("serviceWorker" in navigator){
+    navigator.serviceWorker.register("service-worker.js").then(refreshNotifyBtn).catch(() => {});
+  }else{
+    refreshNotifyBtn();
+  }
+</script>
+</body>
+</html>
