@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-24T01:29:29.898904+09:00",
+  "generated_at": "2026-08-24T05:27:35.656800+09:00",
   "signals": [
     {
       "market": "KRW-PUMP",
       "first_seen_date": "2026-08-23",
-      "current_price": 7.07,
+      "current_price": 7.02,
       "buy_price": 7.25,
       "target_price": 8,
       "stop_price": 7,
