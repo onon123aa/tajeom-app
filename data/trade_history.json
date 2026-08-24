@@ -8,5 +8,15 @@
     "exit_reason": "stop",
     "return_pct": -3.4,
     "confidence": 84.6
+  },
+  {
+    "market": "KRW-PUMP",
+    "first_seen_date": "2026-08-23",
+    "resolved_date": "2026-08-24",
+    "buy_price": 7.25,
+    "exit_price": 6.86,
+    "exit_reason": "stop",
+    "return_pct": -5.38,
+    "confidence": 86.2
   }
 ]
