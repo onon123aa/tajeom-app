@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-26T21:57:37.848852+09:00",
+  "generated_at": "2026-08-27T01:51:12.108459+09:00",
   "signals": [
     {
       "market": "KRW-FLUID",
       "first_seen_date": "2026-08-26",
-      "current_price": 2010.0,
+      "current_price": 1969.0,
       "buy_price": 2010.0,
       "target_price": 2110,
       "stop_price": 1960,

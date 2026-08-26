@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-FLUID",
-    "first_seen_date": "2026-08-26",
-    "current_price": 2010.0,
-    "buy_price": 2010.0,
-    "target_price": 2110,
-    "stop_price": 1960,
-    "confidence": 70.7,
-    "reason": "20일 신고가 돌파 +0.8% · 거래량 17.8배 · 정배열 +7.0% · 당일등락 +12.0%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": -1.4,
-      "win_rate": 40.0
-    }
-  }
-]
+[]
