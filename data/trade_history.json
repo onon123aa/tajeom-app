@@ -18,5 +18,15 @@
     "exit_reason": "stop",
     "return_pct": -5.38,
     "confidence": 86.2
+  },
+  {
+    "market": "KRW-FLUID",
+    "first_seen_date": "2026-08-26",
+    "resolved_date": "2026-08-27",
+    "buy_price": 2010.0,
+    "exit_price": 1914.0,
+    "exit_reason": "stop",
+    "return_pct": -4.78,
+    "confidence": 70.7
   }
 ]
