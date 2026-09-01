@@ -38,5 +38,15 @@
     "exit_reason": "stop",
     "return_pct": -5.42,
     "confidence": 43.6
+  },
+  {
+    "market": "KRW-SKR",
+    "first_seen_date": "2026-08-31",
+    "resolved_date": "2026-09-01",
+    "buy_price": 39.8,
+    "exit_price": 34.1,
+    "exit_reason": "stop",
+    "return_pct": -14.32,
+    "confidence": 76.9
   }
 ]

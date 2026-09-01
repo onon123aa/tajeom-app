@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-01T13:14:04.401956+09:00",
+  "generated_at": "2026-09-01T22:15:57.013428+09:00",
   "signals": [
     {
-      "market": "KRW-SKR",
-      "first_seen_date": "2026-08-31",
-      "current_price": 41.0,
-      "buy_price": 39.8,
-      "target_price": 42,
-      "stop_price": 39,
-      "confidence": 76.9,
-      "reason": "20일 신고가 돌파 +2.1% · 거래량 9.5배 · 정배열 +9.7% · 당일등락 +11.5%",
-      "days_left": 2,
+      "market": "KRW-UNI",
+      "first_seen_date": "2026-09-01",
+      "current_price": 7925.0,
+      "buy_price": 7925.0,
+      "target_price": 8321,
+      "stop_price": 7727,
+      "confidence": 78.9,
+      "reason": "20일 신고가 돌파 +4.1% · 거래량 3.1배 · 정배열 +4.1% · 당일등락 +9.8%",
+      "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": -2.6,
-        "win_rate": 13.3
+        "avg_return_pct": 2.1,
+        "win_rate": 40.0
       },
-      "name": "시커"
+      "name": "유니스왑"
     }
   ]
 }
