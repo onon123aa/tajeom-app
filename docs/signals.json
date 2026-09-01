@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-01T22:15:57.013428+09:00",
+  "generated_at": "2026-09-02T04:17:02.945711+09:00",
   "signals": [
     {
       "market": "KRW-UNI",
       "first_seen_date": "2026-09-01",
-      "current_price": 7925.0,
+      "current_price": 7800.0,
       "buy_price": 7925.0,
       "target_price": 8321,
       "stop_price": 7727,
