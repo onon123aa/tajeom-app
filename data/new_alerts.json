@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-SKR",
-    "first_seen_date": "2026-08-31",
-    "current_price": 39.8,
-    "buy_price": 39.8,
-    "target_price": 42,
-    "stop_price": 39,
-    "confidence": 76.9,
-    "reason": "20일 신고가 돌파 +2.1% · 거래량 9.5배 · 정배열 +9.7% · 당일등락 +11.5%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": -2.6,
-      "win_rate": 13.3
-    }
-  }
-]
+[]
