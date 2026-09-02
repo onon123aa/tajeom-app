@@ -48,5 +48,15 @@
     "exit_reason": "stop",
     "return_pct": -14.32,
     "confidence": 76.9
+  },
+  {
+    "market": "KRW-UNI",
+    "first_seen_date": "2026-09-01",
+    "resolved_date": "2026-09-02",
+    "buy_price": 7925.0,
+    "exit_price": 8680.0,
+    "exit_reason": "target",
+    "return_pct": 9.53,
+    "confidence": 78.9
   }
 ]
