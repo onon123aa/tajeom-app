@@ -1,4 +1,22 @@
 {
-  "generated_at": "2026-09-03T17:42:53.744546+09:00",
-  "signals": []
+  "generated_at": "2026-09-04T01:03:00.158212+09:00",
+  "signals": [
+    {
+      "market": "KRW-ARB",
+      "first_seen_date": "2026-09-03",
+      "current_price": 181.0,
+      "buy_price": 181.0,
+      "target_price": 190,
+      "stop_price": 176,
+      "confidence": 87.1,
+      "reason": "20일 신고가 돌파 +3.4% · 거래량 2.4배 · 정배열 +5.4% · 당일등락 +5.8%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -1.6,
+        "win_rate": 26.7
+      },
+      "name": "아비트럼"
+    }
+  ]
 }
