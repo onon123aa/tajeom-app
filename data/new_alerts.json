@@ -1,17 +1,17 @@
 [
   {
-    "market": "KRW-NEAR",
+    "market": "KRW-ARB",
     "first_seen_date": "2026-09-06",
-    "current_price": 3236.0,
-    "buy_price": 3236.0,
-    "target_price": 3398,
-    "stop_price": 3155,
-    "confidence": 80.1,
-    "reason": "20일 신고가 돌파 +3.4% · 거래량 2.1배 · 정배열 +2.4% · 당일등락 +8.2%",
+    "current_price": 258.0,
+    "buy_price": 258.0,
+    "target_price": 271,
+    "stop_price": 252,
+    "confidence": 87.4,
+    "reason": "20일 신고가 돌파 +3.2% · 거래량 4.3배 · 정배열 +15.2% · 당일등락 +7.1%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": 2.9,
+      "avg_return_pct": -0.1,
       "win_rate": 46.7
     }
   }
