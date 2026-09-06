@@ -1,10 +1,27 @@
 {
-  "generated_at": "2026-09-07T00:09:51.454603+09:00",
+  "generated_at": "2026-09-07T03:07:47.704544+09:00",
   "signals": [
+    {
+      "market": "KRW-NEAR",
+      "first_seen_date": "2026-09-06",
+      "current_price": 3236.0,
+      "buy_price": 3236.0,
+      "target_price": 3398,
+      "stop_price": 3155,
+      "confidence": 80.1,
+      "reason": "20일 신고가 돌파 +3.4% · 거래량 2.1배 · 정배열 +2.4% · 당일등락 +8.2%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": 2.9,
+        "win_rate": 46.7
+      },
+      "name": "니어프로토콜"
+    },
     {
       "market": "KRW-FLOCK",
       "first_seen_date": "2026-09-06",
-      "current_price": 98.9,
+      "current_price": 99.2,
       "buy_price": 98.9,
       "target_price": 104,
       "stop_price": 96,
