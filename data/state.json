@@ -3,7 +3,7 @@
     "KRW-NEAR": {
       "market": "KRW-NEAR",
       "first_seen_date": "2026-09-06",
-      "current_price": 3183.0,
+      "current_price": 3187.0,
       "buy_price": 3236.0,
       "target_price": 3398,
       "stop_price": 3155,
@@ -13,6 +13,22 @@
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": 2.9,
+        "win_rate": 46.7
+      }
+    },
+    "KRW-WLD": {
+      "market": "KRW-WLD",
+      "first_seen_date": "2026-09-07",
+      "current_price": 645.0,
+      "buy_price": 645.0,
+      "target_price": 677,
+      "stop_price": 629,
+      "confidence": 70.2,
+      "reason": "20일 신고가 돌파 +1.3% · 거래량 2.4배 · 정배열 +4.7% · 당일등락 +12.8%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -0.5,
         "win_rate": 46.7
       }
     }
