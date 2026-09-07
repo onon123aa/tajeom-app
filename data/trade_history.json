@@ -78,5 +78,15 @@
     "exit_reason": "stop",
     "return_pct": -7.78,
     "confidence": 59.1
+  },
+  {
+    "market": "KRW-ARB",
+    "first_seen_date": "2026-09-06",
+    "resolved_date": "2026-09-07",
+    "buy_price": 258.0,
+    "exit_price": 243.0,
+    "exit_reason": "stop",
+    "return_pct": -5.81,
+    "confidence": 87.4
   }
 ]

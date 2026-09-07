@@ -1,33 +1,16 @@
 {
-  "generated_at": "2026-09-07T07:00:51.057780+09:00",
+  "generated_at": "2026-09-07T12:38:04.427330+09:00",
   "signals": [
-    {
-      "market": "KRW-ARB",
-      "first_seen_date": "2026-09-06",
-      "current_price": 258.0,
-      "buy_price": 258.0,
-      "target_price": 271,
-      "stop_price": 252,
-      "confidence": 87.4,
-      "reason": "20일 신고가 돌파 +3.2% · 거래량 4.3배 · 정배열 +15.2% · 당일등락 +7.1%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -0.1,
-        "win_rate": 46.7
-      },
-      "name": "아비트럼"
-    },
     {
       "market": "KRW-NEAR",
       "first_seen_date": "2026-09-06",
-      "current_price": 3384.0,
+      "current_price": 3274.0,
       "buy_price": 3236.0,
       "target_price": 3398,
       "stop_price": 3155,
       "confidence": 80.1,
       "reason": "20일 신고가 돌파 +3.4% · 거래량 2.1배 · 정배열 +2.4% · 당일등락 +8.2%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": 2.9,
@@ -36,15 +19,32 @@
       "name": "니어프로토콜"
     },
     {
+      "market": "KRW-ORCA",
+      "first_seen_date": "2026-09-07",
+      "current_price": 2183.0,
+      "buy_price": 2183.0,
+      "target_price": 2292,
+      "stop_price": 2128,
+      "confidence": 77.2,
+      "reason": "20일 신고가 돌파 +3.1% · 거래량 9.9배 · 정배열 +5.4% · 당일등락 +13.5%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": 7.6,
+        "win_rate": 33.3
+      },
+      "name": "오르카"
+    },
+    {
       "market": "KRW-FLOCK",
       "first_seen_date": "2026-09-06",
-      "current_price": 102.0,
+      "current_price": 100.0,
       "buy_price": 98.9,
       "target_price": 104,
       "stop_price": 96,
       "confidence": 53.3,
       "reason": "20일 신고가 돌파 +10.6% · 거래량 3.0배 · 정배열 +11.8% · 당일등락 +13.0%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": -0.6,
