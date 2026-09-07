@@ -88,5 +88,25 @@
     "exit_reason": "stop",
     "return_pct": -5.81,
     "confidence": 87.4
+  },
+  {
+    "market": "KRW-FLOCK",
+    "first_seen_date": "2026-09-06",
+    "resolved_date": "2026-09-07",
+    "buy_price": 98.9,
+    "exit_price": 92.7,
+    "exit_reason": "stop",
+    "return_pct": -6.27,
+    "confidence": 53.3
+  },
+  {
+    "market": "KRW-ORCA",
+    "first_seen_date": "2026-09-07",
+    "resolved_date": "2026-09-07",
+    "buy_price": 2183.0,
+    "exit_price": 2082.0,
+    "exit_reason": "stop",
+    "return_pct": -4.63,
+    "confidence": 77.2
   }
 ]
