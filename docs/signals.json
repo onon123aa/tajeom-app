@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-08T12:42:55.453877+09:00",
+  "generated_at": "2026-09-08T17:43:29.564144+09:00",
   "signals": [
     {
       "market": "KRW-WLD",
       "first_seen_date": "2026-09-07",
-      "current_price": 653.0,
+      "current_price": 646.0,
       "buy_price": 645.0,
       "target_price": 677,
       "stop_price": 629,
