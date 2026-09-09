@@ -128,5 +128,15 @@
     "exit_reason": "stop",
     "return_pct": -4.65,
     "confidence": 70.2
+  },
+  {
+    "market": "KRW-VVV",
+    "first_seen_date": "2026-09-09",
+    "resolved_date": "2026-09-09",
+    "buy_price": 36500.0,
+    "exit_price": 33510.0,
+    "exit_reason": "stop",
+    "return_pct": -8.19,
+    "confidence": 93.0
   }
 ]

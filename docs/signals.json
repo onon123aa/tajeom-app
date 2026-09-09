@@ -1,22 +1,4 @@
 {
-  "generated_at": "2026-09-09T17:49:33.683912+09:00",
-  "signals": [
-    {
-      "market": "KRW-VVV",
-      "first_seen_date": "2026-09-09",
-      "current_price": 36500.0,
-      "buy_price": 36500.0,
-      "target_price": 38325,
-      "stop_price": 35588,
-      "confidence": 93.0,
-      "reason": "20일 신고가 돌파 +3.0% · 거래량 6.6배 · 정배열 +24.7% · 당일등락 +4.2%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": 4.6,
-        "win_rate": 60.0
-      },
-      "name": "베니스토큰"
-    }
-  ]
+  "generated_at": "2026-09-10T01:11:24.947606+09:00",
+  "signals": []
 }
