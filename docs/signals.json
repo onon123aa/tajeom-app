@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-11T17:45:06.771975+09:00",
+  "generated_at": "2026-09-12T01:07:09.305849+09:00",
   "signals": [
     {
       "market": "KRW-RAY",
       "first_seen_date": "2026-09-11",
-      "current_price": 2180.0,
+      "current_price": 2179.0,
       "buy_price": 2180.0,
       "target_price": 2289,
       "stop_price": 2126,
