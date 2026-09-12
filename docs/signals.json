@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-13T00:14:57.435133+09:00",
+  "generated_at": "2026-09-13T03:13:27.001893+09:00",
   "signals": [
     {
       "market": "KRW-ETHFI",
       "first_seen_date": "2026-09-12",
-      "current_price": 1029.0,
+      "current_price": 1011.0,
       "buy_price": 1029.0,
       "target_price": 1080,
       "stop_price": 1003,
@@ -17,23 +17,6 @@
         "win_rate": 60.0
       },
       "name": "이더파이"
-    },
-    {
-      "market": "KRW-RAY",
-      "first_seen_date": "2026-09-11",
-      "current_price": 2150.0,
-      "buy_price": 2180.0,
-      "target_price": 2289,
-      "stop_price": 2126,
-      "confidence": 62.9,
-      "reason": "20일 신고가 돌파 +7.2% · 거래량 2.2배 · 정배열 +25.5% · 당일등락 +10.2%",
-      "days_left": 2,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -3.2,
-        "win_rate": 40.0
-      },
-      "name": "레이디움"
     }
   ]
 }

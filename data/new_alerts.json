@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-ETHFI",
-    "first_seen_date": "2026-09-12",
-    "current_price": 1029.0,
-    "buy_price": 1029.0,
-    "target_price": 1080,
-    "stop_price": 1003,
-    "confidence": 74.4,
-    "reason": "20일 신고가 돌파 +4.3% · 거래량 6.1배 · 정배열 +17.8% · 당일등락 +12.2%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": 0.6,
-      "win_rate": 60.0
-    }
-  }
-]
+[]
