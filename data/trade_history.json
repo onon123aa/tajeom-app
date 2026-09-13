@@ -188,5 +188,15 @@
     "exit_reason": "stop",
     "return_pct": -5.91,
     "confidence": 64.2
+  },
+  {
+    "market": "KRW-ARK",
+    "first_seen_date": "2026-09-13",
+    "resolved_date": "2026-09-13",
+    "buy_price": 201.0,
+    "exit_price": 187.0,
+    "exit_reason": "stop",
+    "return_pct": -6.97,
+    "confidence": 72.2
   }
 ]
