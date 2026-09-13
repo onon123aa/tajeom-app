@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-13T12:55:20.945852+09:00",
+  "generated_at": "2026-09-13T18:18:10.956771+09:00",
   "signals": [
     {
-      "market": "KRW-PUNDIX",
+      "market": "KRW-POLYX",
       "first_seen_date": "2026-09-13",
-      "current_price": 164.0,
-      "buy_price": 164.0,
-      "target_price": 172,
-      "stop_price": 160,
-      "confidence": 77.4,
-      "reason": "20일 신고가 돌파 +2.5% · 거래량 4.0배 · 정배열 +10.4% · 당일등락 +12.3%",
+      "current_price": 55.8,
+      "buy_price": 55.8,
+      "target_price": 59,
+      "stop_price": 54,
+      "confidence": 64.2,
+      "reason": "20일 신고가 돌파 +6.3% · 거래량 10.4배 · 정배열 +2.1% · 당일등락 +10.7%",
       "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": -1.7,
-        "win_rate": 46.7
+        "avg_return_pct": -1.0,
+        "win_rate": 40.0
       },
-      "name": "펀디엑스"
+      "name": "폴리매쉬"
     },
     {
       "market": "KRW-CVC",
       "first_seen_date": "2026-09-13",
-      "current_price": 35.0,
+      "current_price": 35.5,
       "buy_price": 35.0,
       "target_price": 37,
       "stop_price": 34,

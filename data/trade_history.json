@@ -158,5 +158,15 @@
     "exit_reason": "stop",
     "return_pct": -6.32,
     "confidence": 74.4
+  },
+  {
+    "market": "KRW-PUNDIX",
+    "first_seen_date": "2026-09-13",
+    "resolved_date": "2026-09-13",
+    "buy_price": 164.0,
+    "exit_price": 172.0,
+    "exit_reason": "target",
+    "return_pct": 4.88,
+    "confidence": 77.4
   }
 ]
