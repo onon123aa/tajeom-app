@@ -168,5 +168,25 @@
     "exit_reason": "target",
     "return_pct": 4.88,
     "confidence": 77.4
+  },
+  {
+    "market": "KRW-CVC",
+    "first_seen_date": "2026-09-13",
+    "resolved_date": "2026-09-13",
+    "buy_price": 35.0,
+    "exit_price": 51.6,
+    "exit_reason": "target",
+    "return_pct": 47.43,
+    "confidence": 54.1
+  },
+  {
+    "market": "KRW-POLYX",
+    "first_seen_date": "2026-09-13",
+    "resolved_date": "2026-09-13",
+    "buy_price": 55.8,
+    "exit_price": 52.5,
+    "exit_reason": "stop",
+    "return_pct": -5.91,
+    "confidence": 64.2
   }
 ]

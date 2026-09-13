@@ -1,18 +1,34 @@
 [
   {
-    "market": "KRW-POLYX",
+    "market": "KRW-ARK",
     "first_seen_date": "2026-09-13",
-    "current_price": 55.8,
-    "buy_price": 55.8,
-    "target_price": 59,
-    "stop_price": 54,
-    "confidence": 64.2,
-    "reason": "20일 신고가 돌파 +6.3% · 거래량 10.4배 · 정배열 +2.1% · 당일등락 +10.7%",
+    "current_price": 201.0,
+    "buy_price": 201.0,
+    "target_price": 211,
+    "stop_price": 196,
+    "confidence": 72.2,
+    "reason": "20일 신고가 돌파 +0.5% · 거래량 12.2배 · 정배열 +9.2% · 당일등락 +10.4%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": -1.0,
-      "win_rate": 40.0
+      "avg_return_pct": -0.1,
+      "win_rate": 26.7
+    }
+  },
+  {
+    "market": "KRW-POWR",
+    "first_seen_date": "2026-09-13",
+    "current_price": 82.1,
+    "buy_price": 82.1,
+    "target_price": 86,
+    "stop_price": 80,
+    "confidence": 74.9,
+    "reason": "20일 신고가 돌파 +6.2% · 거래량 16.7배 · 정배열 +10.1% · 당일등락 +7.0%",
+    "days_left": 3,
+    "similar_patterns": {
+      "count": 15,
+      "avg_return_pct": -0.1,
+      "win_rate": 60.0
     }
   }
 ]
