@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-14T23:51:12.833804+09:00",
+  "generated_at": "2026-09-15T05:12:21.533823+09:00",
   "signals": [
     {
       "market": "KRW-POLYX",
       "first_seen_date": "2026-09-13",
-      "current_price": 54.9,
+      "current_price": 54.5,
       "buy_price": 53.6,
       "target_price": 56,
       "stop_price": 52,
