@@ -1,25 +1,9 @@
 {
   "positions": {
-    "KRW-POWR": {
-      "market": "KRW-POWR",
-      "first_seen_date": "2026-09-13",
-      "current_price": 85.4,
-      "buy_price": 82.1,
-      "target_price": 86,
-      "stop_price": 80,
-      "confidence": 74.9,
-      "reason": "20일 신고가 돌파 +6.2% · 거래량 16.7배 · 정배열 +10.1% · 당일등락 +7.0%",
-      "days_left": 2,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -0.1,
-        "win_rate": 60.0
-      }
-    },
     "KRW-POLYX": {
       "market": "KRW-POLYX",
       "first_seen_date": "2026-09-13",
-      "current_price": 55.1,
+      "current_price": 54.9,
       "buy_price": 53.6,
       "target_price": 56,
       "stop_price": 52,
