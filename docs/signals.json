@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-16T04:34:55.778902+09:00",
+  "generated_at": "2026-09-16T07:46:17.141806+09:00",
   "signals": [
     {
-      "market": "KRW-POLYX",
-      "first_seen_date": "2026-09-13",
-      "current_price": 53.3,
-      "buy_price": 53.6,
-      "target_price": 56,
-      "stop_price": 52,
-      "confidence": 79.8,
-      "reason": "20일 신고가 돌파 +2.1% · 거래량 14.7배 · 정배열 +1.9% · 당일등락 +6.3%",
-      "days_left": 1,
+      "market": "KRW-ASTR",
+      "first_seen_date": "2026-09-15",
+      "current_price": 9.39,
+      "buy_price": 9.39,
+      "target_price": 10,
+      "stop_price": 9,
+      "confidence": 66.2,
+      "reason": "20일 신고가 돌파 +0.9% · 거래량 17.6배 · 정배열 +9.5% · 당일등락 +14.9%",
+      "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": -0.8,
-        "win_rate": 46.7
+        "avg_return_pct": 0.1,
+        "win_rate": 53.3
       },
-      "name": "폴리매쉬"
+      "name": "아스타"
     }
   ]
 }

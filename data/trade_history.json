@@ -208,5 +208,15 @@
     "exit_reason": "stop",
     "return_pct": -3.53,
     "confidence": 74.9
+  },
+  {
+    "market": "KRW-POLYX",
+    "first_seen_date": "2026-09-13",
+    "resolved_date": "2026-09-15",
+    "buy_price": 53.6,
+    "exit_price": 51.8,
+    "exit_reason": "stop",
+    "return_pct": -3.36,
+    "confidence": 79.8
   }
 ]
