@@ -3,13 +3,13 @@
     "KRW-POLYX": {
       "market": "KRW-POLYX",
       "first_seen_date": "2026-09-13",
-      "current_price": 54.5,
+      "current_price": 53.7,
       "buy_price": 53.6,
       "target_price": 56,
       "stop_price": 52,
       "confidence": 79.8,
       "reason": "20일 신고가 돌파 +2.1% · 거래량 14.7배 · 정배열 +1.9% · 당일등락 +6.3%",
-      "days_left": 2,
+      "days_left": 1,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": -0.8,
