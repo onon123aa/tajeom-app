@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-ASTR",
-    "first_seen_date": "2026-09-15",
-    "current_price": 9.39,
-    "buy_price": 9.39,
-    "target_price": 10,
-    "stop_price": 9,
-    "confidence": 66.2,
-    "reason": "20일 신고가 돌파 +0.9% · 거래량 17.6배 · 정배열 +9.5% · 당일등락 +14.9%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": 0.1,
-      "win_rate": 53.3
-    }
-  }
-]
+[]

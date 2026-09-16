@@ -218,5 +218,15 @@
     "exit_reason": "stop",
     "return_pct": -3.36,
     "confidence": 79.8
+  },
+  {
+    "market": "KRW-ASTR",
+    "first_seen_date": "2026-09-15",
+    "resolved_date": "2026-09-16",
+    "buy_price": 9.39,
+    "exit_price": 8.77,
+    "exit_reason": "stop",
+    "return_pct": -6.6,
+    "confidence": 66.2
   }
 ]
