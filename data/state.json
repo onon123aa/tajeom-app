@@ -1,3 +1,20 @@
 {
-  "positions": {}
+  "positions": {
+    "KRW-DRV": {
+      "market": "KRW-DRV",
+      "first_seen_date": "2026-09-17",
+      "current_price": 351.0,
+      "buy_price": 351.0,
+      "target_price": 369,
+      "stop_price": 342,
+      "confidence": 86.8,
+      "reason": "20일 신고가 돌파 +1.7% · 거래량 5.3배 · 정배열 +23.5% · 당일등락 +4.8%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 8,
+        "avg_return_pct": 6.8,
+        "win_rate": 62.5
+      }
+    }
+  }
 }
