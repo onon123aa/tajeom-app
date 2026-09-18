@@ -228,5 +228,15 @@
     "exit_reason": "stop",
     "return_pct": -6.6,
     "confidence": 66.2
+  },
+  {
+    "market": "KRW-DRV",
+    "first_seen_date": "2026-09-17",
+    "resolved_date": "2026-09-18",
+    "buy_price": 351.0,
+    "exit_price": 318.0,
+    "exit_reason": "stop",
+    "return_pct": -9.4,
+    "confidence": 86.8
   }
 ]
