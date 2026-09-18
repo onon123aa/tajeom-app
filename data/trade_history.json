@@ -238,5 +238,15 @@
     "exit_reason": "stop",
     "return_pct": -9.4,
     "confidence": 86.8
+  },
+  {
+    "market": "KRW-NEAR",
+    "first_seen_date": "2026-09-18",
+    "resolved_date": "2026-09-18",
+    "buy_price": 4752.0,
+    "exit_price": 5105.0,
+    "exit_reason": "target",
+    "return_pct": 7.43,
+    "confidence": 61.1
   }
 ]

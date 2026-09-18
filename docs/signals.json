@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-19T01:03:59.087319+09:00",
+  "generated_at": "2026-09-19T07:23:59.926006+09:00",
   "signals": [
     {
-      "market": "KRW-NEAR",
+      "market": "KRW-UNI",
       "first_seen_date": "2026-09-18",
-      "current_price": 4932.0,
-      "buy_price": 4752.0,
-      "target_price": 4990,
-      "stop_price": 4633,
-      "confidence": 61.1,
-      "reason": "20일 신고가 돌파 +7.8% · 거래량 2.2배 · 정배열 +18.2% · 당일등락 +9.6%",
+      "current_price": 12110.0,
+      "buy_price": 12110.0,
+      "target_price": 12716,
+      "stop_price": 11807,
+      "confidence": 49.3,
+      "reason": "20일 신고가 돌파 +11.9% · 거래량 2.1배 · 정배열 +33.0% · 당일등락 +12.9%",
       "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": 0.7,
-        "win_rate": 40.0
+        "avg_return_pct": 5.3,
+        "win_rate": 46.7
       },
-      "name": "니어프로토콜"
+      "name": "유니스왑"
     }
   ]
 }
