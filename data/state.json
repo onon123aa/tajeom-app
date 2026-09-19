@@ -3,13 +3,13 @@
     "KRW-UNI": {
       "market": "KRW-UNI",
       "first_seen_date": "2026-09-18",
-      "current_price": 12110.0,
+      "current_price": 12400.0,
       "buy_price": 12110.0,
       "target_price": 12716,
       "stop_price": 11807,
       "confidence": 49.3,
       "reason": "20일 신고가 돌파 +11.9% · 거래량 2.1배 · 정배열 +33.0% · 당일등락 +12.9%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": 5.3,
