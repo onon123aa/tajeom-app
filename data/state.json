@@ -1,19 +1,35 @@
 {
   "positions": {
-    "KRW-ENA": {
-      "market": "KRW-ENA",
+    "KRW-AVAX": {
+      "market": "KRW-AVAX",
       "first_seen_date": "2026-09-20",
-      "current_price": 309.0,
-      "buy_price": 309.0,
-      "target_price": 324,
-      "stop_price": 301,
-      "confidence": 60.0,
-      "reason": "20일 신고가 돌파 +7.7% · 거래량 2.3배 · 정배열 +27.1% · 당일등락 +11.2%",
+      "current_price": 15480.0,
+      "buy_price": 15480.0,
+      "target_price": 16254,
+      "stop_price": 15093,
+      "confidence": 54.3,
+      "reason": "20일 신고가 돌파 +11.5% · 거래량 6.0배 · 정배열 +8.4% · 당일등락 +12.4%",
       "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": -3.2,
-        "win_rate": 26.7
+        "avg_return_pct": -1.5,
+        "win_rate": 40.0
+      }
+    },
+    "KRW-HBAR": {
+      "market": "KRW-HBAR",
+      "first_seen_date": "2026-09-20",
+      "current_price": 118.0,
+      "buy_price": 118.0,
+      "target_price": 124,
+      "stop_price": 115,
+      "confidence": 89.0,
+      "reason": "20일 신고가 돌파 +3.5% · 거래량 4.2배 · 정배열 +4.0% · 당일등락 +5.4%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": 1.6,
+        "win_rate": 46.7
       }
     }
   }

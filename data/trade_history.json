@@ -268,5 +268,15 @@
     "exit_reason": "target",
     "return_pct": 7.23,
     "confidence": 90.3
+  },
+  {
+    "market": "KRW-ENA",
+    "first_seen_date": "2026-09-20",
+    "resolved_date": "2026-09-20",
+    "buy_price": 309.0,
+    "exit_price": 301.0,
+    "exit_reason": "stop",
+    "return_pct": -2.59,
+    "confidence": 60.0
   }
 ]
