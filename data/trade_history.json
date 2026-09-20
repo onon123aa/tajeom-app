@@ -258,5 +258,15 @@
     "exit_reason": "target",
     "return_pct": 5.28,
     "confidence": 49.3
+  },
+  {
+    "market": "KRW-AVAX",
+    "first_seen_date": "2026-09-20",
+    "resolved_date": "2026-09-20",
+    "buy_price": 14110.0,
+    "exit_price": 15130.0,
+    "exit_reason": "target",
+    "return_pct": 7.23,
+    "confidence": 90.3
   }
 ]

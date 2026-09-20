@@ -1,18 +1,18 @@
 [
   {
-    "market": "KRW-AVAX",
+    "market": "KRW-ENA",
     "first_seen_date": "2026-09-20",
-    "current_price": 14110.0,
-    "buy_price": 14110.0,
-    "target_price": 14816,
-    "stop_price": 13757,
-    "confidence": 90.3,
-    "reason": "20일 신고가 돌파 +1.7% · 거래량 4.1배 · 정배열 +8.0% · 당일등락 +2.5%",
+    "current_price": 309.0,
+    "buy_price": 309.0,
+    "target_price": 324,
+    "stop_price": 301,
+    "confidence": 60.0,
+    "reason": "20일 신고가 돌파 +7.7% · 거래량 2.3배 · 정배열 +27.1% · 당일등락 +11.2%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": -1.3,
-      "win_rate": 40.0
+      "avg_return_pct": -3.2,
+      "win_rate": 26.7
     }
   }
 ]
