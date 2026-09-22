@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-23T01:34:28.984425+09:00",
+  "generated_at": "2026-09-23T07:49:03.004598+09:00",
   "signals": [
     {
       "market": "KRW-ETH",
       "first_seen_date": "2026-09-21",
-      "current_price": 3685000.0,
+      "current_price": 3703000.0,
       "buy_price": 3748000.0,
       "target_price": 3935400,
       "stop_price": 3654300,
@@ -21,7 +21,7 @@
     {
       "market": "KRW-BTC",
       "first_seen_date": "2026-09-21",
-      "current_price": 116103000.0,
+      "current_price": 115794000.0,
       "buy_price": 116111000.0,
       "target_price": 121916550,
       "stop_price": 113208225,
@@ -38,7 +38,7 @@
     {
       "market": "KRW-DOGE",
       "first_seen_date": "2026-09-21",
-      "current_price": 133.0,
+      "current_price": 136.0,
       "buy_price": 134.0,
       "target_price": 141,
       "stop_price": 131,
@@ -55,7 +55,7 @@
     {
       "market": "KRW-CARV",
       "first_seen_date": "2026-09-22",
-      "current_price": 59.1,
+      "current_price": 61.1,
       "buy_price": 59.1,
       "target_price": 62,
       "stop_price": 58,
@@ -70,21 +70,21 @@
       "name": "카브"
     },
     {
-      "market": "KRW-SEI",
-      "first_seen_date": "2026-09-21",
-      "current_price": 82.5,
-      "buy_price": 81.3,
-      "target_price": 85,
-      "stop_price": 79,
-      "confidence": 56.1,
-      "reason": "20일 신고가 돌파 +9.6% · 거래량 5.9배 · 정배열 +4.6% · 당일등락 +11.4%",
-      "days_left": 2,
+      "market": "KRW-BTT",
+      "first_seen_date": "2026-09-22",
+      "current_price": 0.000513,
+      "buy_price": 0.000513,
+      "target_price": 0,
+      "stop_price": 0,
+      "confidence": 62.8,
+      "reason": "20일 신고가 돌파 +8.5% · 거래량 14.2배 · 정배열 +9.1% · 당일등락 +8.7%",
+      "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": -0.0,
-        "win_rate": 33.3
+        "avg_return_pct": 1.6,
+        "win_rate": 53.3
       },
-      "name": "세이"
+      "name": "비트토렌트"
     }
   ]
 }
