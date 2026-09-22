@@ -3,7 +3,7 @@
     "KRW-BTC": {
       "market": "KRW-BTC",
       "first_seen_date": "2026-09-21",
-      "current_price": 115308000.0,
+      "current_price": 116049000.0,
       "buy_price": 116111000.0,
       "target_price": 121916550,
       "stop_price": 113208225,
@@ -19,7 +19,7 @@
     "KRW-SEI": {
       "market": "KRW-SEI",
       "first_seen_date": "2026-09-21",
-      "current_price": 81.1,
+      "current_price": 82.3,
       "buy_price": 81.3,
       "target_price": 85,
       "stop_price": 79,
@@ -35,7 +35,7 @@
     "KRW-SUI": {
       "market": "KRW-SUI",
       "first_seen_date": "2026-09-21",
-      "current_price": 1400.0,
+      "current_price": 1370.0,
       "buy_price": 1404.0,
       "target_price": 1474,
       "stop_price": 1369,
@@ -51,7 +51,7 @@
     "KRW-DOGE": {
       "market": "KRW-DOGE",
       "first_seen_date": "2026-09-21",
-      "current_price": 138.0,
+      "current_price": 133.0,
       "buy_price": 134.0,
       "target_price": 141,
       "stop_price": 131,
@@ -67,7 +67,7 @@
     "KRW-ETH": {
       "market": "KRW-ETH",
       "first_seen_date": "2026-09-21",
-      "current_price": 3690000.0,
+      "current_price": 3699000.0,
       "buy_price": 3748000.0,
       "target_price": 3935400,
       "stop_price": 3654300,
@@ -78,22 +78,6 @@
         "count": 15,
         "avg_return_pct": 1.5,
         "win_rate": 53.3
-      }
-    },
-    "KRW-PEPE": {
-      "market": "KRW-PEPE",
-      "first_seen_date": "2026-09-22",
-      "current_price": 0.00708,
-      "buy_price": 0.00708,
-      "target_price": 0,
-      "stop_price": 0,
-      "confidence": 78.8,
-      "reason": "20일 신고가 돌파 +1.9% · 거래량 2.5배 · 정배열 +10.1% · 당일등락 +9.8%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": 0.9,
-        "win_rate": 33.3
       }
     }
   }

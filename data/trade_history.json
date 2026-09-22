@@ -318,5 +318,15 @@
     "exit_reason": "stop",
     "return_pct": -4.59,
     "confidence": 90.8
+  },
+  {
+    "market": "KRW-PEPE",
+    "first_seen_date": "2026-09-22",
+    "resolved_date": "2026-09-22",
+    "buy_price": 0.00708,
+    "exit_price": 0.00672,
+    "exit_reason": "target",
+    "return_pct": -5.08,
+    "confidence": 78.8
   }
 ]
