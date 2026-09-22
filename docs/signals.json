@@ -1,50 +1,16 @@
 {
-  "generated_at": "2026-09-22T05:19:18.272265+09:00",
+  "generated_at": "2026-09-22T12:59:17.059667+09:00",
   "signals": [
-    {
-      "market": "KRW-PROVE",
-      "first_seen_date": "2026-09-21",
-      "current_price": 327.0,
-      "buy_price": 327.0,
-      "target_price": 343,
-      "stop_price": 319,
-      "confidence": 90.8,
-      "reason": "20일 신고가 돌파 +2.2% · 거래량 13.7배 · 정배열 +8.2% · 당일등락 +3.5%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -0.6,
-        "win_rate": 53.3
-      },
-      "name": "서싱트"
-    },
-    {
-      "market": "KRW-HBAR",
-      "first_seen_date": "2026-09-20",
-      "current_price": 123.0,
-      "buy_price": 118.0,
-      "target_price": 124,
-      "stop_price": 115,
-      "confidence": 89.0,
-      "reason": "20일 신고가 돌파 +3.5% · 거래량 4.2배 · 정배열 +4.0% · 당일등락 +5.4%",
-      "days_left": 2,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": 1.6,
-        "win_rate": 46.7
-      },
-      "name": "헤데라"
-    },
     {
       "market": "KRW-ETH",
       "first_seen_date": "2026-09-21",
-      "current_price": 3748000.0,
+      "current_price": 3690000.0,
       "buy_price": 3748000.0,
       "target_price": 3935400,
       "stop_price": 3654300,
       "confidence": 89.0,
       "reason": "20일 신고가 돌파 +3.1% · 거래량 2.0배 · 정배열 +10.6% · 당일등락 +3.6%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": 1.5,
@@ -55,13 +21,13 @@
     {
       "market": "KRW-BTC",
       "first_seen_date": "2026-09-21",
-      "current_price": 117032000.0,
+      "current_price": 115308000.0,
       "buy_price": 116111000.0,
       "target_price": 121916550,
       "stop_price": 113208225,
       "confidence": 86.6,
       "reason": "20일 신고가 돌파 +3.3% · 거래량 2.0배 · 정배열 +7.3% · 당일등락 +4.5%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": 0.4,
@@ -70,21 +36,55 @@
       "name": "비트코인"
     },
     {
+      "market": "KRW-PEPE",
+      "first_seen_date": "2026-09-22",
+      "current_price": 0.00708,
+      "buy_price": 0.00708,
+      "target_price": 0,
+      "stop_price": 0,
+      "confidence": 78.8,
+      "reason": "20일 신고가 돌파 +1.9% · 거래량 2.5배 · 정배열 +10.1% · 당일등락 +9.8%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": 0.9,
+        "win_rate": 33.3
+      },
+      "name": "페페"
+    },
+    {
       "market": "KRW-DOGE",
       "first_seen_date": "2026-09-21",
-      "current_price": 134.0,
+      "current_price": 138.0,
       "buy_price": 134.0,
       "target_price": 141,
       "stop_price": 131,
       "confidence": 78.7,
       "reason": "20일 신고가 돌파 +3.1% · 거래량 2.8배 · 정배열 +6.8% · 당일등락 +12.6%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": -0.3,
         "win_rate": 33.3
       },
       "name": "도지코인"
+    },
+    {
+      "market": "KRW-SEI",
+      "first_seen_date": "2026-09-21",
+      "current_price": 81.1,
+      "buy_price": 81.3,
+      "target_price": 85,
+      "stop_price": 79,
+      "confidence": 56.1,
+      "reason": "20일 신고가 돌파 +9.6% · 거래량 5.9배 · 정배열 +4.6% · 당일등락 +11.4%",
+      "days_left": 2,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -0.0,
+        "win_rate": 33.3
+      },
+      "name": "세이"
     }
   ]
 }

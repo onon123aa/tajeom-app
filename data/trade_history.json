@@ -288,5 +288,35 @@
     "exit_reason": "stop",
     "return_pct": -3.94,
     "confidence": 54.3
+  },
+  {
+    "market": "KRW-HBAR",
+    "first_seen_date": "2026-09-20",
+    "resolved_date": "2026-09-22",
+    "buy_price": 118.0,
+    "exit_price": 127.0,
+    "exit_reason": "target",
+    "return_pct": 7.63,
+    "confidence": 89.0
+  },
+  {
+    "market": "KRW-KERNEL",
+    "first_seen_date": "2026-09-21",
+    "resolved_date": "2026-09-22",
+    "buy_price": 64.1,
+    "exit_price": 89.1,
+    "exit_reason": "target",
+    "return_pct": 39.0,
+    "confidence": 65.7
+  },
+  {
+    "market": "KRW-PROVE",
+    "first_seen_date": "2026-09-21",
+    "resolved_date": "2026-09-22",
+    "buy_price": 327.0,
+    "exit_price": 312.0,
+    "exit_reason": "stop",
+    "return_pct": -4.59,
+    "confidence": 90.8
   }
 ]

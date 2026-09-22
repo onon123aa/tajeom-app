@@ -1,50 +1,18 @@
 [
   {
-    "market": "KRW-DOGE",
-    "first_seen_date": "2026-09-21",
-    "current_price": 134.0,
-    "buy_price": 134.0,
-    "target_price": 141,
-    "stop_price": 131,
-    "confidence": 78.7,
-    "reason": "20일 신고가 돌파 +3.1% · 거래량 2.8배 · 정배열 +6.8% · 당일등락 +12.6%",
+    "market": "KRW-PEPE",
+    "first_seen_date": "2026-09-22",
+    "current_price": 0.00708,
+    "buy_price": 0.00708,
+    "target_price": 0,
+    "stop_price": 0,
+    "confidence": 78.8,
+    "reason": "20일 신고가 돌파 +1.9% · 거래량 2.5배 · 정배열 +10.1% · 당일등락 +9.8%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": -0.3,
+      "avg_return_pct": 0.9,
       "win_rate": 33.3
-    }
-  },
-  {
-    "market": "KRW-ETH",
-    "first_seen_date": "2026-09-21",
-    "current_price": 3748000.0,
-    "buy_price": 3748000.0,
-    "target_price": 3935400,
-    "stop_price": 3654300,
-    "confidence": 89.0,
-    "reason": "20일 신고가 돌파 +3.1% · 거래량 2.0배 · 정배열 +10.6% · 당일등락 +3.6%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": 1.5,
-      "win_rate": 53.3
-    }
-  },
-  {
-    "market": "KRW-PROVE",
-    "first_seen_date": "2026-09-21",
-    "current_price": 327.0,
-    "buy_price": 327.0,
-    "target_price": 343,
-    "stop_price": 319,
-    "confidence": 90.8,
-    "reason": "20일 신고가 돌파 +2.2% · 거래량 13.7배 · 정배열 +8.2% · 당일등락 +3.5%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": -0.6,
-      "win_rate": 53.3
     }
   }
 ]
