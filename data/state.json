@@ -3,7 +3,7 @@
     "KRW-BTC": {
       "market": "KRW-BTC",
       "first_seen_date": "2026-09-21",
-      "current_price": 116049000.0,
+      "current_price": 116103000.0,
       "buy_price": 116111000.0,
       "target_price": 121916550,
       "stop_price": 113208225,
@@ -19,7 +19,7 @@
     "KRW-SEI": {
       "market": "KRW-SEI",
       "first_seen_date": "2026-09-21",
-      "current_price": 82.3,
+      "current_price": 82.5,
       "buy_price": 81.3,
       "target_price": 85,
       "stop_price": 79,
@@ -30,22 +30,6 @@
         "count": 15,
         "avg_return_pct": -0.0,
         "win_rate": 33.3
-      }
-    },
-    "KRW-SUI": {
-      "market": "KRW-SUI",
-      "first_seen_date": "2026-09-21",
-      "current_price": 1370.0,
-      "buy_price": 1404.0,
-      "target_price": 1474,
-      "stop_price": 1369,
-      "confidence": 51.1,
-      "reason": "20일 신고가 돌파 +11.7% · 거래량 3.5배 · 정배열 +4.0% · 당일등락 +14.3%",
-      "days_left": 2,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -0.2,
-        "win_rate": 40.0
       }
     },
     "KRW-DOGE": {
@@ -67,7 +51,7 @@
     "KRW-ETH": {
       "market": "KRW-ETH",
       "first_seen_date": "2026-09-21",
-      "current_price": 3699000.0,
+      "current_price": 3685000.0,
       "buy_price": 3748000.0,
       "target_price": 3935400,
       "stop_price": 3654300,
@@ -78,6 +62,22 @@
         "count": 15,
         "avg_return_pct": 1.5,
         "win_rate": 53.3
+      }
+    },
+    "KRW-CARV": {
+      "market": "KRW-CARV",
+      "first_seen_date": "2026-09-22",
+      "current_price": 59.1,
+      "buy_price": 59.1,
+      "target_price": 62,
+      "stop_price": 58,
+      "confidence": 73.2,
+      "reason": "20일 신고가 돌파 +6.7% · 거래량 15.4배 · 정배열 +10.0% · 당일등락 +6.9%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -0.5,
+        "win_rate": 33.3
       }
     }
   }

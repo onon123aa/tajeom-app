@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "market": "KRW-CARV",
+    "first_seen_date": "2026-09-22",
+    "current_price": 59.1,
+    "buy_price": 59.1,
+    "target_price": 62,
+    "stop_price": 58,
+    "confidence": 73.2,
+    "reason": "20일 신고가 돌파 +6.7% · 거래량 15.4배 · 정배열 +10.0% · 당일등락 +6.9%",
+    "days_left": 3,
+    "similar_patterns": {
+      "count": 15,
+      "avg_return_pct": -0.5,
+      "win_rate": 33.3
+    }
+  }
+]

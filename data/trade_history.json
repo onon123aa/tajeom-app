@@ -328,5 +328,15 @@
     "exit_reason": "target",
     "return_pct": -5.08,
     "confidence": 78.8
+  },
+  {
+    "market": "KRW-SUI",
+    "first_seen_date": "2026-09-21",
+    "resolved_date": "2026-09-22",
+    "buy_price": 1404.0,
+    "exit_price": 1349.0,
+    "exit_reason": "stop",
+    "return_pct": -3.92,
+    "confidence": 51.1
   }
 ]
