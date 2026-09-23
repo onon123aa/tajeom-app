@@ -1,18 +1,18 @@
 [
   {
-    "market": "KRW-BCH",
+    "market": "KRW-BLAST",
     "first_seen_date": "2026-09-23",
-    "current_price": 478200.0,
-    "buy_price": 478200.0,
-    "target_price": 502110,
-    "stop_price": 466245,
-    "confidence": 93.2,
-    "reason": "20일 신고가 돌파 +2.7% · 거래량 3.3배 · 정배열 +4.7% · 당일등락 +3.3%",
+    "current_price": 0.657,
+    "buy_price": 0.657,
+    "target_price": 1,
+    "stop_price": 1,
+    "confidence": 68.6,
+    "reason": "20일 신고가 돌파 +0.3% · 거래량 4.1배 · 정배열 +19.3% · 당일등락 +12.1%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": 0.5,
-      "win_rate": 46.7
+      "avg_return_pct": -3.1,
+      "win_rate": 26.7
     }
   }
 ]
