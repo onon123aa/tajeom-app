@@ -1,27 +1,10 @@
 {
-  "generated_at": "2026-09-24T01:24:43.868357+09:00",
+  "generated_at": "2026-09-24T07:49:33.874018+09:00",
   "signals": [
-    {
-      "market": "KRW-BCH",
-      "first_seen_date": "2026-09-23",
-      "current_price": 476200.0,
-      "buy_price": 478200.0,
-      "target_price": 502110,
-      "stop_price": 466245,
-      "confidence": 93.2,
-      "reason": "20일 신고가 돌파 +2.7% · 거래량 3.3배 · 정배열 +4.7% · 당일등락 +3.3%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": 0.5,
-        "win_rate": 46.7
-      },
-      "name": "비트코인캐시"
-    },
     {
       "market": "KRW-BTC",
       "first_seen_date": "2026-09-21",
-      "current_price": 115156000.0,
+      "current_price": 116255000.0,
       "buy_price": 116111000.0,
       "target_price": 121916550,
       "stop_price": 113208225,
@@ -36,9 +19,26 @@
       "name": "비트코인"
     },
     {
+      "market": "KRW-BSV",
+      "first_seen_date": "2026-09-23",
+      "current_price": 30480.0,
+      "buy_price": 30480.0,
+      "target_price": 32004,
+      "stop_price": 29718,
+      "confidence": 82.9,
+      "reason": "20일 신고가 돌파 +3.5% · 거래량 11.2배 · 정배열 +8.4% · 당일등락 +8.9%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": 3.2,
+        "win_rate": 73.3
+      },
+      "name": "비트코인에스브이"
+    },
+    {
       "market": "KRW-CARV",
       "first_seen_date": "2026-09-22",
-      "current_price": 58.2,
+      "current_price": 58.8,
       "buy_price": 59.1,
       "target_price": 62,
       "stop_price": 58,
@@ -53,26 +53,9 @@
       "name": "카브"
     },
     {
-      "market": "KRW-BLAST",
-      "first_seen_date": "2026-09-23",
-      "current_price": 0.657,
-      "buy_price": 0.657,
-      "target_price": 1,
-      "stop_price": 1,
-      "confidence": 68.6,
-      "reason": "20일 신고가 돌파 +0.3% · 거래량 4.1배 · 정배열 +19.3% · 당일등락 +12.1%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -3.1,
-        "win_rate": 26.7
-      },
-      "name": "블라스트"
-    },
-    {
       "market": "KRW-SEI",
       "first_seen_date": "2026-09-21",
-      "current_price": 80.4,
+      "current_price": 80.9,
       "buy_price": 81.3,
       "target_price": 85,
       "stop_price": 79,

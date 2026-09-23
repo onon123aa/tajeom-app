@@ -378,5 +378,25 @@
     "exit_reason": "stop",
     "return_pct": -2.85,
     "confidence": 89.0
+  },
+  {
+    "market": "KRW-BCH",
+    "first_seen_date": "2026-09-23",
+    "resolved_date": "2026-09-23",
+    "buy_price": 478200.0,
+    "exit_price": 465100.0,
+    "exit_reason": "stop",
+    "return_pct": -2.74,
+    "confidence": 93.2
+  },
+  {
+    "market": "KRW-BLAST",
+    "first_seen_date": "2026-09-23",
+    "resolved_date": "2026-09-23",
+    "buy_price": 0.657,
+    "exit_price": 0.648,
+    "exit_reason": "stop",
+    "return_pct": -1.37,
+    "confidence": 68.6
   }
 ]
