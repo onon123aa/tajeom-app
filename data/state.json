@@ -3,7 +3,7 @@
     "KRW-BTC": {
       "market": "KRW-BTC",
       "first_seen_date": "2026-09-21",
-      "current_price": 116404000.0,
+      "current_price": 116358000.0,
       "buy_price": 116111000.0,
       "target_price": 121916550,
       "stop_price": 113208225,
@@ -19,7 +19,7 @@
     "KRW-SEI": {
       "market": "KRW-SEI",
       "first_seen_date": "2026-09-21",
-      "current_price": 83.9,
+      "current_price": 83.2,
       "buy_price": 81.3,
       "target_price": 85,
       "stop_price": 79,
@@ -35,7 +35,7 @@
     "KRW-DOGE": {
       "market": "KRW-DOGE",
       "first_seen_date": "2026-09-21",
-      "current_price": 139.0,
+      "current_price": 136.0,
       "buy_price": 134.0,
       "target_price": 141,
       "stop_price": 131,
@@ -51,7 +51,7 @@
     "KRW-ETH": {
       "market": "KRW-ETH",
       "first_seen_date": "2026-09-21",
-      "current_price": 3723000.0,
+      "current_price": 3710000.0,
       "buy_price": 3748000.0,
       "target_price": 3935400,
       "stop_price": 3654300,
@@ -67,7 +67,7 @@
     "KRW-CARV": {
       "market": "KRW-CARV",
       "first_seen_date": "2026-09-22",
-      "current_price": 60.3,
+      "current_price": 60.1,
       "buy_price": 59.1,
       "target_price": 62,
       "stop_price": 58,
@@ -83,7 +83,7 @@
     "KRW-BSV": {
       "market": "KRW-BSV",
       "first_seen_date": "2026-09-23",
-      "current_price": 31430.0,
+      "current_price": 30670.0,
       "buy_price": 31430.0,
       "target_price": 33002,
       "stop_price": 30644,
@@ -94,6 +94,22 @@
         "count": 15,
         "avg_return_pct": 2.8,
         "win_rate": 66.7
+      }
+    },
+    "KRW-BCH": {
+      "market": "KRW-BCH",
+      "first_seen_date": "2026-09-23",
+      "current_price": 478200.0,
+      "buy_price": 478200.0,
+      "target_price": 502110,
+      "stop_price": 466245,
+      "confidence": 93.2,
+      "reason": "20일 신고가 돌파 +2.7% · 거래량 3.3배 · 정배열 +4.7% · 당일등락 +3.3%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": 0.5,
+        "win_rate": 46.7
       }
     }
   }

@@ -1,18 +1,18 @@
 [
   {
-    "market": "KRW-BSV",
+    "market": "KRW-BCH",
     "first_seen_date": "2026-09-23",
-    "current_price": 31430.0,
-    "buy_price": 31430.0,
-    "target_price": 33002,
-    "stop_price": 30644,
-    "confidence": 63.8,
-    "reason": "20일 신고가 돌파 +6.8% · 거래량 8.6배 · 정배열 +8.5% · 당일등락 +12.3%",
+    "current_price": 478200.0,
+    "buy_price": 478200.0,
+    "target_price": 502110,
+    "stop_price": 466245,
+    "confidence": 93.2,
+    "reason": "20일 신고가 돌파 +2.7% · 거래량 3.3배 · 정배열 +4.7% · 당일등락 +3.3%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": 2.8,
-      "win_rate": 66.7
+      "avg_return_pct": 0.5,
+      "win_rate": 46.7
     }
   }
 ]
