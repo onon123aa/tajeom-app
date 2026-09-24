@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-BSV",
-    "first_seen_date": "2026-09-23",
-    "current_price": 30480.0,
-    "buy_price": 30480.0,
-    "target_price": 32004,
-    "stop_price": 29718,
-    "confidence": 82.9,
-    "reason": "20일 신고가 돌파 +3.5% · 거래량 11.2배 · 정배열 +8.4% · 당일등락 +8.9%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": 3.2,
-      "win_rate": 73.3
-    }
-  }
-]
+[]
