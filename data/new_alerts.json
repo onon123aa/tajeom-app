@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "market": "KRW-ETC",
+    "first_seen_date": "2026-09-24",
+    "current_price": 13490.0,
+    "buy_price": 13490.0,
+    "target_price": 14164,
+    "stop_price": 13153,
+    "confidence": 76.4,
+    "reason": "20일 신고가 돌파 +3.8% · 거래량 4.6배 · 정배열 +9.0% · 당일등락 +12.0%",
+    "days_left": 3,
+    "similar_patterns": {
+      "count": 15,
+      "avg_return_pct": 0.6,
+      "win_rate": 46.7
+    }
+  }
+]
