@@ -428,5 +428,15 @@
     "exit_reason": "time",
     "return_pct": 0.25,
     "confidence": 56.1
+  },
+  {
+    "market": "KRW-CARV",
+    "first_seen_date": "2026-09-22",
+    "resolved_date": "2026-09-24",
+    "buy_price": 59.1,
+    "exit_price": 57.3,
+    "exit_reason": "stop",
+    "return_pct": -3.05,
+    "confidence": 73.2
   }
 ]
