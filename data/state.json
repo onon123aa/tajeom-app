@@ -1,3 +1,36 @@
 {
-  "positions": {}
+  "positions": {
+    "KRW-AXS": {
+      "market": "KRW-AXS",
+      "first_seen_date": "2026-09-25",
+      "current_price": 1577.0,
+      "buy_price": 1577.0,
+      "target_price": 1656,
+      "stop_price": 1538,
+      "confidence": 76.7,
+      "reason": "20일 신고가 돌파 +0.4% · 거래량 6.7배 · 정배열 +4.7% · 당일등락 +7.6%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -3.4,
+        "win_rate": 40.0
+      }
+    },
+    "KRW-ONDO": {
+      "market": "KRW-ONDO",
+      "first_seen_date": "2026-09-25",
+      "current_price": 747.0,
+      "buy_price": 747.0,
+      "target_price": 784,
+      "stop_price": 728,
+      "confidence": 88.1,
+      "reason": "20일 신고가 돌파 +3.9% · 거래량 2.7배 · 정배열 +4.5% · 당일등락 +4.9%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -2.4,
+        "win_rate": 20.0
+      }
+    }
+  }
 }
