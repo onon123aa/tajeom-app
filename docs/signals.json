@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-26T04:54:57.504459+09:00",
+  "generated_at": "2026-09-26T08:11:14.816170+09:00",
   "signals": [
     {
       "market": "KRW-ONDO",
       "first_seen_date": "2026-09-25",
-      "current_price": 735.0,
+      "current_price": 749.0,
       "buy_price": 747.0,
       "target_price": 784,
       "stop_price": 728,
@@ -19,9 +19,26 @@
       "name": "온도파이낸스"
     },
     {
+      "market": "KRW-XPL",
+      "first_seen_date": "2026-09-25",
+      "current_price": 156.0,
+      "buy_price": 156.0,
+      "target_price": 164,
+      "stop_price": 152,
+      "confidence": 84.3,
+      "reason": "20일 신고가 돌파 +2.0% · 거래량 2.6배 · 정배열 +4.3% · 당일등락 +6.8%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -0.2,
+        "win_rate": 40.0
+      },
+      "name": "플라즈마"
+    },
+    {
       "market": "KRW-AXS",
       "first_seen_date": "2026-09-25",
-      "current_price": 1631.0,
+      "current_price": 1604.0,
       "buy_price": 1577.0,
       "target_price": 1656,
       "stop_price": 1538,
@@ -38,7 +55,7 @@
     {
       "market": "KRW-SUI",
       "first_seen_date": "2026-09-25",
-      "current_price": 1549.0,
+      "current_price": 1620.0,
       "buy_price": 1549.0,
       "target_price": 1626,
       "stop_price": 1510,

@@ -1,18 +1,18 @@
 [
   {
-    "market": "KRW-SUI",
+    "market": "KRW-XPL",
     "first_seen_date": "2026-09-25",
-    "current_price": 1549.0,
-    "buy_price": 1549.0,
-    "target_price": 1626,
-    "stop_price": 1510,
-    "confidence": 64.0,
-    "reason": "20일 신고가 돌파 +6.3% · 거래량 2.3배 · 정배열 +8.3% · 당일등락 +12.0%",
+    "current_price": 156.0,
+    "buy_price": 156.0,
+    "target_price": 164,
+    "stop_price": 152,
+    "confidence": 84.3,
+    "reason": "20일 신고가 돌파 +2.0% · 거래량 2.6배 · 정배열 +4.3% · 당일등락 +6.8%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": -0.7,
-      "win_rate": 53.3
+      "avg_return_pct": -0.2,
+      "win_rate": 40.0
     }
   }
 ]
