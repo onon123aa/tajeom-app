@@ -448,5 +448,15 @@
     "exit_reason": "stop",
     "return_pct": -3.93,
     "confidence": 76.4
+  },
+  {
+    "market": "KRW-XPL",
+    "first_seen_date": "2026-09-25",
+    "resolved_date": "2026-09-26",
+    "buy_price": 156.0,
+    "exit_price": 151.0,
+    "exit_reason": "stop",
+    "return_pct": -3.21,
+    "confidence": 84.3
   }
 ]

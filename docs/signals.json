@@ -1,39 +1,22 @@
 {
-  "generated_at": "2026-09-26T08:11:14.816170+09:00",
+  "generated_at": "2026-09-26T13:10:03.728633+09:00",
   "signals": [
     {
       "market": "KRW-ONDO",
       "first_seen_date": "2026-09-25",
-      "current_price": 749.0,
+      "current_price": 740.0,
       "buy_price": 747.0,
       "target_price": 784,
       "stop_price": 728,
       "confidence": 88.1,
       "reason": "20일 신고가 돌파 +3.9% · 거래량 2.7배 · 정배열 +4.5% · 당일등락 +4.9%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": -2.4,
         "win_rate": 20.0
       },
       "name": "온도파이낸스"
-    },
-    {
-      "market": "KRW-XPL",
-      "first_seen_date": "2026-09-25",
-      "current_price": 156.0,
-      "buy_price": 156.0,
-      "target_price": 164,
-      "stop_price": 152,
-      "confidence": 84.3,
-      "reason": "20일 신고가 돌파 +2.0% · 거래량 2.6배 · 정배열 +4.3% · 당일등락 +6.8%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -0.2,
-        "win_rate": 40.0
-      },
-      "name": "플라즈마"
     },
     {
       "market": "KRW-AXS",
@@ -44,7 +27,7 @@
       "stop_price": 1538,
       "confidence": 76.7,
       "reason": "20일 신고가 돌파 +0.4% · 거래량 6.7배 · 정배열 +4.7% · 당일등락 +7.6%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": -3.4,
@@ -55,13 +38,13 @@
     {
       "market": "KRW-SUI",
       "first_seen_date": "2026-09-25",
-      "current_price": 1620.0,
+      "current_price": 1594.0,
       "buy_price": 1549.0,
       "target_price": 1626,
       "stop_price": 1510,
       "confidence": 64.0,
       "reason": "20일 신고가 돌파 +6.3% · 거래량 2.3배 · 정배열 +8.3% · 당일등락 +12.0%",
-      "days_left": 3,
+      "days_left": 2,
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": -0.7,
