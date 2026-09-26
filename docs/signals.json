@@ -1,27 +1,10 @@
 {
-  "generated_at": "2026-09-27T04:06:47.402686+09:00",
+  "generated_at": "2026-09-27T07:31:11.481921+09:00",
   "signals": [
-    {
-      "market": "KRW-ONDO",
-      "first_seen_date": "2026-09-25",
-      "current_price": 733.0,
-      "buy_price": 747.0,
-      "target_price": 784,
-      "stop_price": 728,
-      "confidence": 88.1,
-      "reason": "20일 신고가 돌파 +3.9% · 거래량 2.7배 · 정배열 +4.5% · 당일등락 +4.9%",
-      "days_left": 2,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -2.4,
-        "win_rate": 20.0
-      },
-      "name": "온도파이낸스"
-    },
     {
       "market": "KRW-AXS",
       "first_seen_date": "2026-09-25",
-      "current_price": 1595.0,
+      "current_price": 1588.0,
       "buy_price": 1577.0,
       "target_price": 1656,
       "stop_price": 1538,
@@ -38,7 +21,7 @@
     {
       "market": "KRW-WLD",
       "first_seen_date": "2026-09-26",
-      "current_price": 724.0,
+      "current_price": 715.0,
       "buy_price": 724.0,
       "target_price": 760,
       "stop_price": 706,
@@ -55,7 +38,7 @@
     {
       "market": "KRW-SUI",
       "first_seen_date": "2026-09-25",
-      "current_price": 1578.0,
+      "current_price": 1577.0,
       "buy_price": 1549.0,
       "target_price": 1626,
       "stop_price": 1510,

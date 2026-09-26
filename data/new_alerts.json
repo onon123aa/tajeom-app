@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-WLD",
-    "first_seen_date": "2026-09-26",
-    "current_price": 724.0,
-    "buy_price": 724.0,
-    "target_price": 760,
-    "stop_price": 706,
-    "confidence": 73.5,
-    "reason": "20일 신고가 돌파 +5.5% · 거래량 2.3배 · 정배열 +11.0% · 당일등락 +8.2%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": 2.9,
-      "win_rate": 46.7
-    }
-  }
-]
+[]
