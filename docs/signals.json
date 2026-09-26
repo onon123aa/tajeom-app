@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-26T21:47:19.491468+09:00",
+  "generated_at": "2026-09-27T04:06:47.402686+09:00",
   "signals": [
     {
       "market": "KRW-ONDO",
       "first_seen_date": "2026-09-25",
-      "current_price": 745.0,
+      "current_price": 733.0,
       "buy_price": 747.0,
       "target_price": 784,
       "stop_price": 728,
@@ -21,7 +21,7 @@
     {
       "market": "KRW-AXS",
       "first_seen_date": "2026-09-25",
-      "current_price": 1601.0,
+      "current_price": 1595.0,
       "buy_price": 1577.0,
       "target_price": 1656,
       "stop_price": 1538,
@@ -36,9 +36,26 @@
       "name": "엑시인피니티"
     },
     {
+      "market": "KRW-WLD",
+      "first_seen_date": "2026-09-26",
+      "current_price": 724.0,
+      "buy_price": 724.0,
+      "target_price": 760,
+      "stop_price": 706,
+      "confidence": 73.5,
+      "reason": "20일 신고가 돌파 +5.5% · 거래량 2.3배 · 정배열 +11.0% · 당일등락 +8.2%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": 2.9,
+        "win_rate": 46.7
+      },
+      "name": "월드코인"
+    },
+    {
       "market": "KRW-SUI",
       "first_seen_date": "2026-09-25",
-      "current_price": 1594.0,
+      "current_price": 1578.0,
       "buy_price": 1549.0,
       "target_price": 1626,
       "stop_price": 1510,
@@ -51,23 +68,6 @@
         "win_rate": 53.3
       },
       "name": "수이"
-    },
-    {
-      "market": "KRW-ARK",
-      "first_seen_date": "2026-09-26",
-      "current_price": 384.0,
-      "buy_price": 384.0,
-      "target_price": 403,
-      "stop_price": 374,
-      "confidence": 59.0,
-      "reason": "20일 신고가 돌파 +7.3% · 거래량 2.2배 · 정배열 +28.9% · 당일등락 +12.3%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": 1.7,
-        "win_rate": 60.0
-      },
-      "name": "아크"
     }
   ]
 }
