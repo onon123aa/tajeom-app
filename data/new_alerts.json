@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "market": "KRW-TRUST",
+    "first_seen_date": "2026-09-27",
+    "current_price": 91.5,
+    "buy_price": 91.5,
+    "target_price": 96,
+    "stop_price": 89,
+    "confidence": 75.4,
+    "reason": "20일 신고가 돌파 +4.7% · 거래량 11.5배 · 정배열 +6.4% · 당일등락 +10.5%",
+    "days_left": 3,
+    "similar_patterns": {
+      "count": 15,
+      "avg_return_pct": 9.2,
+      "win_rate": 33.3
+    }
+  }
+]
