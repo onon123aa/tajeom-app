@@ -1,18 +1,18 @@
 {
   "positions": {
-    "KRW-IRYS": {
-      "market": "KRW-IRYS",
+    "KRW-LINK": {
+      "market": "KRW-LINK",
       "first_seen_date": "2026-09-28",
-      "current_price": 26.1,
-      "buy_price": 26.1,
-      "target_price": 27,
-      "stop_price": 25,
-      "confidence": 29.2,
-      "reason": "20일 신고가 돌파 +10.1% · 거래량 14.1배 · 정배열 +0.4% · 당일등락 +15.0%",
+      "current_price": 20570.0,
+      "buy_price": 20570.0,
+      "target_price": 21598,
+      "stop_price": 20056,
+      "confidence": 79.7,
+      "reason": "20일 신고가 돌파 +4.6% · 거래량 2.6배 · 정배열 +12.0% · 당일등락 +8.3%",
       "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": -0.5,
+        "avg_return_pct": 0.7,
         "win_rate": 46.7
       }
     }
