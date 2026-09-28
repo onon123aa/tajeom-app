@@ -1,39 +1,22 @@
 {
-  "generated_at": "2026-09-28T07:52:58.855992+09:00",
+  "generated_at": "2026-09-28T13:26:02.471816+09:00",
   "signals": [
     {
-      "market": "KRW-AXS",
-      "first_seen_date": "2026-09-25",
-      "current_price": 1578.0,
-      "buy_price": 1577.0,
-      "target_price": 1656,
-      "stop_price": 1538,
-      "confidence": 76.7,
-      "reason": "20일 신고가 돌파 +0.4% · 거래량 6.7배 · 정배열 +4.7% · 당일등락 +7.6%",
-      "days_left": 1,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -3.4,
-        "win_rate": 40.0
-      },
-      "name": "엑시인피니티"
-    },
-    {
-      "market": "KRW-TRUST",
-      "first_seen_date": "2026-09-27",
-      "current_price": 89.8,
-      "buy_price": 91.5,
-      "target_price": 96,
-      "stop_price": 89,
-      "confidence": 75.4,
-      "reason": "20일 신고가 돌파 +4.7% · 거래량 11.5배 · 정배열 +6.4% · 당일등락 +10.5%",
+      "market": "KRW-IRYS",
+      "first_seen_date": "2026-09-28",
+      "current_price": 26.1,
+      "buy_price": 26.1,
+      "target_price": 27,
+      "stop_price": 25,
+      "confidence": 29.2,
+      "reason": "20일 신고가 돌파 +10.1% · 거래량 14.1배 · 정배열 +0.4% · 당일등락 +15.0%",
       "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": 9.2,
-        "win_rate": 33.3
+        "avg_return_pct": -0.5,
+        "win_rate": 46.7
       },
-      "name": "인튜이션"
+      "name": "아이리스"
     }
   ]
 }
