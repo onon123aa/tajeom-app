@@ -3,7 +3,7 @@
     "KRW-LINK": {
       "market": "KRW-LINK",
       "first_seen_date": "2026-09-28",
-      "current_price": 21140.0,
+      "current_price": 20880.0,
       "buy_price": 20570.0,
       "target_price": 21598,
       "stop_price": 20056,
@@ -13,6 +13,22 @@
       "similar_patterns": {
         "count": 15,
         "avg_return_pct": 0.7,
+        "win_rate": 46.7
+      }
+    },
+    "KRW-0G": {
+      "market": "KRW-0G",
+      "first_seen_date": "2026-09-29",
+      "current_price": 412.0,
+      "buy_price": 412.0,
+      "target_price": 433,
+      "stop_price": 402,
+      "confidence": 91.5,
+      "reason": "20일 신고가 돌파 +3.0% · 거래량 3.1배 · 정배열 +21.1% · 당일등락 +5.1%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -6.0,
         "win_rate": 46.7
       }
     }

@@ -1,10 +1,27 @@
 {
-  "generated_at": "2026-09-29T09:16:24.199785+09:00",
+  "generated_at": "2026-09-29T19:30:20.396143+09:00",
   "signals": [
+    {
+      "market": "KRW-0G",
+      "first_seen_date": "2026-09-29",
+      "current_price": 412.0,
+      "buy_price": 412.0,
+      "target_price": 433,
+      "stop_price": 402,
+      "confidence": 91.5,
+      "reason": "20일 신고가 돌파 +3.0% · 거래량 3.1배 · 정배열 +21.1% · 당일등락 +5.1%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -6.0,
+        "win_rate": 46.7
+      },
+      "name": "제로지"
+    },
     {
       "market": "KRW-LINK",
       "first_seen_date": "2026-09-28",
-      "current_price": 21140.0,
+      "current_price": 20880.0,
       "buy_price": 20570.0,
       "target_price": 21598,
       "stop_price": 20056,
