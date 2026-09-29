@@ -1,18 +1,18 @@
 [
   {
-    "market": "KRW-0G",
+    "market": "KRW-AAVE",
     "first_seen_date": "2026-09-29",
-    "current_price": 412.0,
-    "buy_price": 412.0,
-    "target_price": 433,
-    "stop_price": 402,
-    "confidence": 91.5,
-    "reason": "20일 신고가 돌파 +3.0% · 거래량 3.1배 · 정배열 +21.1% · 당일등락 +5.1%",
+    "current_price": 225000.0,
+    "buy_price": 225000.0,
+    "target_price": 236250,
+    "stop_price": 219375,
+    "confidence": 73.2,
+    "reason": "20일 신고가 돌파 +5.1% · 거래량 3.7배 · 정배열 +14.8% · 당일등락 +10.7%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": -6.0,
-      "win_rate": 46.7
+      "avg_return_pct": -3.5,
+      "win_rate": 20.0
     }
   }
 ]

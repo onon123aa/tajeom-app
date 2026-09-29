@@ -538,5 +538,25 @@
     "exit_reason": "stop",
     "return_pct": -10.34,
     "confidence": 29.2
+  },
+  {
+    "market": "KRW-0G",
+    "first_seen_date": "2026-09-29",
+    "resolved_date": "2026-09-29",
+    "buy_price": 412.0,
+    "exit_price": 447.0,
+    "exit_reason": "target",
+    "return_pct": 8.5,
+    "confidence": 91.5
+  },
+  {
+    "market": "KRW-LINK",
+    "first_seen_date": "2026-09-28",
+    "resolved_date": "2026-09-29",
+    "buy_price": 20570.0,
+    "exit_price": 19730.0,
+    "exit_reason": "stop",
+    "return_pct": -4.08,
+    "confidence": 79.7
   }
 ]
