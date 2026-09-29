@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-30T02:52:07.516136+09:00",
+  "generated_at": "2026-09-30T08:33:05.921429+09:00",
   "signals": [
     {
       "market": "KRW-AAVE",
       "first_seen_date": "2026-09-29",
-      "current_price": 225000.0,
+      "current_price": 225500.0,
       "buy_price": 225000.0,
       "target_price": 236250,
       "stop_price": 219375,
@@ -17,6 +17,23 @@
         "win_rate": 20.0
       },
       "name": "에이브"
+    },
+    {
+      "market": "KRW-0G",
+      "first_seen_date": "2026-09-29",
+      "current_price": 447.0,
+      "buy_price": 447.0,
+      "target_price": 469,
+      "stop_price": 436,
+      "confidence": 51.6,
+      "reason": "20일 신고가 돌파 +11.7% · 거래량 6.3배 · 정배열 +21.5% · 당일등락 +14.0%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -8.5,
+        "win_rate": 26.7
+      },
+      "name": "제로지"
     }
   ]
 }
