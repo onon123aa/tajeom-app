@@ -558,5 +558,15 @@
     "exit_reason": "stop",
     "return_pct": -4.08,
     "confidence": 79.7
+  },
+  {
+    "market": "KRW-AAVE",
+    "first_seen_date": "2026-09-29",
+    "resolved_date": "2026-09-30",
+    "buy_price": 225000.0,
+    "exit_price": 218000.0,
+    "exit_reason": "stop",
+    "return_pct": -3.11,
+    "confidence": 73.2
   }
 ]
