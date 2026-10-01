@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-STX",
-    "first_seen_date": "2026-10-01",
-    "current_price": 520.0,
-    "buy_price": 520.0,
-    "target_price": 546,
-    "stop_price": 507,
-    "confidence": 78.5,
-    "reason": "20일 신고가 돌파 +0.2% · 거래량 2.1배 · 정배열 +30.1% · 당일등락 +3.4%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": 2.4,
-      "win_rate": 40.0
-    }
-  }
-]
+[]
