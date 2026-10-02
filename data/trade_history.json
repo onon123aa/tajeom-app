@@ -578,5 +578,15 @@
     "exit_reason": "stop",
     "return_pct": -4.7,
     "confidence": 51.6
+  },
+  {
+    "market": "KRW-STX",
+    "first_seen_date": "2026-10-01",
+    "resolved_date": "2026-10-02",
+    "buy_price": 520.0,
+    "exit_price": 494.0,
+    "exit_reason": "stop",
+    "return_pct": -5.0,
+    "confidence": 78.5
   }
 ]
