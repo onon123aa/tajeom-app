@@ -1,3 +1,20 @@
 {
-  "positions": {}
+  "positions": {
+    "KRW-MANA": {
+      "market": "KRW-MANA",
+      "first_seen_date": "2026-10-02",
+      "current_price": 134.0,
+      "buy_price": 134.0,
+      "target_price": 141,
+      "stop_price": 131,
+      "confidence": 70.1,
+      "reason": "20일 신고가 돌파 +5.5% · 거래량 13.6배 · 정배열 +10.8% · 당일등락 +11.7%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -0.8,
+        "win_rate": 40.0
+      }
+    }
+  }
 }
