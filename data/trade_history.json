@@ -598,5 +598,15 @@
     "exit_reason": "target",
     "return_pct": 9.7,
     "confidence": 70.1
+  },
+  {
+    "market": "KRW-ATH",
+    "first_seen_date": "2026-10-03",
+    "resolved_date": "2026-10-03",
+    "buy_price": 9.8,
+    "exit_price": 9.69,
+    "exit_reason": "stop",
+    "return_pct": -1.12,
+    "confidence": 81.3
   }
 ]
