@@ -1,18 +1,18 @@
 [
   {
-    "market": "KRW-SAND",
+    "market": "KRW-ATH",
     "first_seen_date": "2026-10-03",
-    "current_price": 102.0,
-    "buy_price": 102.0,
-    "target_price": 107,
-    "stop_price": 99,
-    "confidence": 84.4,
-    "reason": "20일 신고가 돌파 +2.6% · 거래량 6.2배 · 정배열 +7.8% · 당일등락 +8.4%",
+    "current_price": 9.8,
+    "buy_price": 9.8,
+    "target_price": 10,
+    "stop_price": 10,
+    "confidence": 81.3,
+    "reason": "20일 신고가 돌파 +4.4% · 거래량 4.8배 · 정배열 +15.5% · 당일등락 +7.8%",
     "days_left": 3,
     "similar_patterns": {
       "count": 15,
-      "avg_return_pct": -3.1,
-      "win_rate": 33.3
+      "avg_return_pct": -1.5,
+      "win_rate": 53.3
     }
   }
 ]
