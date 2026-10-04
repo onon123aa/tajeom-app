@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-04T13:58:05.587484+09:00",
+  "generated_at": "2026-10-04T22:49:14.115378+09:00",
   "signals": [
     {
       "market": "KRW-AXS",
       "first_seen_date": "2026-10-04",
-      "current_price": 1867.0,
+      "current_price": 1853.0,
       "buy_price": 1867.0,
       "target_price": 1960,
       "stop_price": 1820,

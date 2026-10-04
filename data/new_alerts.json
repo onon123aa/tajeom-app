@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-AXS",
-    "first_seen_date": "2026-10-04",
-    "current_price": 1867.0,
-    "buy_price": 1867.0,
-    "target_price": 1960,
-    "stop_price": 1820,
-    "confidence": 67.3,
-    "reason": "20일 신고가 돌파 +5.0% · 거래량 4.1배 · 정배열 +11.1% · 당일등락 +14.6%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": 1.4,
-      "win_rate": 40.0
-    }
-  }
-]
+[]
