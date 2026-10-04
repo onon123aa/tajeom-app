@@ -3,7 +3,7 @@
     "KRW-AXS": {
       "market": "KRW-AXS",
       "first_seen_date": "2026-10-04",
-      "current_price": 1853.0,
+      "current_price": 1846.0,
       "buy_price": 1867.0,
       "target_price": 1960,
       "stop_price": 1820,
@@ -14,6 +14,22 @@
         "count": 15,
         "avg_return_pct": 1.4,
         "win_rate": 40.0
+      }
+    },
+    "KRW-IOTA": {
+      "market": "KRW-IOTA",
+      "first_seen_date": "2026-10-04",
+      "current_price": 80.2,
+      "buy_price": 80.2,
+      "target_price": 84,
+      "stop_price": 78,
+      "confidence": 82.1,
+      "reason": "20일 신고가 돌파 +3.9% · 거래량 3.9배 · 정배열 +15.7% · 당일등락 +8.5%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -2.9,
+        "win_rate": 33.3
       }
     }
   }

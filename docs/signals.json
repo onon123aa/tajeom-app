@@ -1,10 +1,27 @@
 {
-  "generated_at": "2026-10-04T22:49:14.115378+09:00",
+  "generated_at": "2026-10-05T04:19:30.130408+09:00",
   "signals": [
+    {
+      "market": "KRW-IOTA",
+      "first_seen_date": "2026-10-04",
+      "current_price": 80.2,
+      "buy_price": 80.2,
+      "target_price": 84,
+      "stop_price": 78,
+      "confidence": 82.1,
+      "reason": "20일 신고가 돌파 +3.9% · 거래량 3.9배 · 정배열 +15.7% · 당일등락 +8.5%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -2.9,
+        "win_rate": 33.3
+      },
+      "name": "아이오타"
+    },
     {
       "market": "KRW-AXS",
       "first_seen_date": "2026-10-04",
-      "current_price": 1853.0,
+      "current_price": 1846.0,
       "buy_price": 1867.0,
       "target_price": 1960,
       "stop_price": 1820,
