@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-05T04:19:30.130408+09:00",
+  "generated_at": "2026-10-05T07:53:37.291464+09:00",
   "signals": [
     {
       "market": "KRW-IOTA",
       "first_seen_date": "2026-10-04",
-      "current_price": 80.2,
+      "current_price": 79.9,
       "buy_price": 80.2,
       "target_price": 84,
       "stop_price": 78,
@@ -21,7 +21,7 @@
     {
       "market": "KRW-AXS",
       "first_seen_date": "2026-10-04",
-      "current_price": 1846.0,
+      "current_price": 1834.0,
       "buy_price": 1867.0,
       "target_price": 1960,
       "stop_price": 1820,
