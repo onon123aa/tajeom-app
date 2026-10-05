@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-05T13:45:45.792453+09:00",
+  "generated_at": "2026-10-06T01:56:13.575784+09:00",
   "signals": [
     {
       "market": "KRW-IOTA",
       "first_seen_date": "2026-10-04",
-      "current_price": 78.8,
+      "current_price": 79.5,
       "buy_price": 80.2,
       "target_price": 84,
       "stop_price": 78,
@@ -17,23 +17,6 @@
         "win_rate": 33.3
       },
       "name": "아이오타"
-    },
-    {
-      "market": "KRW-ZKP",
-      "first_seen_date": "2026-10-05",
-      "current_price": 72.7,
-      "buy_price": 72.7,
-      "target_price": 76,
-      "stop_price": 71,
-      "confidence": 75.0,
-      "reason": "20일 신고가 돌파 +0.4% · 거래량 10.6배 · 정배열 +5.9% · 당일등락 +8.5%",
-      "days_left": 3,
-      "similar_patterns": {
-        "count": 15,
-        "avg_return_pct": -3.8,
-        "win_rate": 53.3
-      },
-      "name": "지케이패스"
     }
   ]
 }

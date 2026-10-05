@@ -628,5 +628,15 @@
     "exit_reason": "stop",
     "return_pct": -5.14,
     "confidence": 67.3
+  },
+  {
+    "market": "KRW-ZKP",
+    "first_seen_date": "2026-10-05",
+    "resolved_date": "2026-10-05",
+    "buy_price": 72.7,
+    "exit_price": 69.6,
+    "exit_reason": "stop",
+    "return_pct": -4.26,
+    "confidence": 75.0
   }
 ]

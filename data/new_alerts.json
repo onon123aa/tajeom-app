@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-ZKP",
-    "first_seen_date": "2026-10-05",
-    "current_price": 72.7,
-    "buy_price": 72.7,
-    "target_price": 76,
-    "stop_price": 71,
-    "confidence": 75.0,
-    "reason": "20일 신고가 돌파 +0.4% · 거래량 10.6배 · 정배열 +5.9% · 당일등락 +8.5%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": -3.8,
-      "win_rate": 53.3
-    }
-  }
-]
+[]
