@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "market": "KRW-ORCA",
+    "first_seen_date": "2026-10-06",
+    "current_price": 3490.0,
+    "buy_price": 3490.0,
+    "target_price": 3664,
+    "stop_price": 3403,
+    "confidence": 78.0,
+    "reason": "20일 신고가 돌파 +5.5% · 거래량 6.6배 · 정배열 +21.5% · 당일등락 +6.9%",
+    "days_left": 3,
+    "similar_patterns": {
+      "count": 15,
+      "avg_return_pct": 5.6,
+      "win_rate": 40.0
+    }
+  }
+]
