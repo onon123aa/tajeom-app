@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-07T03:06:22.405045+09:00",
+  "generated_at": "2026-10-07T08:39:49.472910+09:00",
   "signals": [
     {
-      "market": "KRW-IOTA",
-      "first_seen_date": "2026-10-04",
-      "current_price": 79.1,
-      "buy_price": 80.2,
-      "target_price": 84,
-      "stop_price": 78,
-      "confidence": 82.1,
-      "reason": "20일 신고가 돌파 +3.9% · 거래량 3.9배 · 정배열 +15.7% · 당일등락 +8.5%",
-      "days_left": 1,
+      "market": "KRW-API3",
+      "first_seen_date": "2026-10-06",
+      "current_price": 470.0,
+      "buy_price": 470.0,
+      "target_price": 494,
+      "stop_price": 458,
+      "confidence": 80.4,
+      "reason": "20일 신고가 돌파 +4.0% · 거래량 11.0배 · 정배열 +15.7% · 당일등락 +9.3%",
+      "days_left": 3,
       "similar_patterns": {
         "count": 15,
-        "avg_return_pct": -2.9,
-        "win_rate": 33.3
+        "avg_return_pct": -2.4,
+        "win_rate": 40.0
       },
-      "name": "아이오타"
+      "name": "에이피아이쓰리"
     }
   ]
 }

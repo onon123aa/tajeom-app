@@ -648,5 +648,15 @@
     "exit_reason": "target",
     "return_pct": 22.49,
     "confidence": 78.0
+  },
+  {
+    "market": "KRW-IOTA",
+    "first_seen_date": "2026-10-04",
+    "resolved_date": "2026-10-06",
+    "buy_price": 80.2,
+    "exit_price": 77.9,
+    "exit_reason": "stop",
+    "return_pct": -2.87,
+    "confidence": 82.1
   }
 ]
