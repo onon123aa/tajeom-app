@@ -638,5 +638,15 @@
     "exit_reason": "stop",
     "return_pct": -4.26,
     "confidence": 75.0
+  },
+  {
+    "market": "KRW-ORCA",
+    "first_seen_date": "2026-10-06",
+    "resolved_date": "2026-10-06",
+    "buy_price": 3490.0,
+    "exit_price": 4275.0,
+    "exit_reason": "target",
+    "return_pct": 22.49,
+    "confidence": 78.0
   }
 ]
