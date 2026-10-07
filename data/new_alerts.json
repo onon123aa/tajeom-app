@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-API3",
-    "first_seen_date": "2026-10-06",
-    "current_price": 470.0,
-    "buy_price": 470.0,
-    "target_price": 494,
-    "stop_price": 458,
-    "confidence": 80.4,
-    "reason": "20일 신고가 돌파 +4.0% · 거래량 11.0배 · 정배열 +15.7% · 당일등락 +9.3%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": -2.4,
-      "win_rate": 40.0
-    }
-  }
-]
+[]

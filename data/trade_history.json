@@ -658,5 +658,15 @@
     "exit_reason": "stop",
     "return_pct": -2.87,
     "confidence": 82.1
+  },
+  {
+    "market": "KRW-API3",
+    "first_seen_date": "2026-10-06",
+    "resolved_date": "2026-10-07",
+    "buy_price": 470.0,
+    "exit_price": 442.0,
+    "exit_reason": "stop",
+    "return_pct": -5.96,
+    "confidence": 80.4
   }
 ]
