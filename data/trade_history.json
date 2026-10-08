@@ -668,5 +668,15 @@
     "exit_reason": "stop",
     "return_pct": -5.96,
     "confidence": 80.4
+  },
+  {
+    "market": "KRW-RAY",
+    "first_seen_date": "2026-10-07",
+    "resolved_date": "2026-10-08",
+    "buy_price": 3412.0,
+    "exit_price": 3318.0,
+    "exit_reason": "stop",
+    "return_pct": -2.75,
+    "confidence": 60.3
   }
 ]
