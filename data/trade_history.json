@@ -678,5 +678,15 @@
     "exit_reason": "stop",
     "return_pct": -2.75,
     "confidence": 60.3
+  },
+  {
+    "market": "KRW-DKA",
+    "first_seen_date": "2026-10-11",
+    "resolved_date": "2026-10-11",
+    "buy_price": 6.2,
+    "exit_price": 5.95,
+    "exit_reason": "stop",
+    "return_pct": -4.03,
+    "confidence": 76.3
   }
 ]
