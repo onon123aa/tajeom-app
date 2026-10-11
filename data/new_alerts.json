@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-CFX",
-    "first_seen_date": "2026-10-11",
-    "current_price": 94.5,
-    "buy_price": 94.5,
-    "target_price": 99,
-    "stop_price": 92,
-    "confidence": 64.6,
-    "reason": "20일 신고가 돌파 +6.5% · 거래량 11.8배 · 정배열 +10.1% · 당일등락 +12.4%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 9,
-      "avg_return_pct": 3.0,
-      "win_rate": 55.6
-    }
-  }
-]
+[]
