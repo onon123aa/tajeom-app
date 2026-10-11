@@ -1,4 +1,22 @@
 {
-  "generated_at": "2026-10-11T08:20:40.684234+09:00",
-  "signals": []
+  "generated_at": "2026-10-11T13:48:15.523251+09:00",
+  "signals": [
+    {
+      "market": "KRW-DKA",
+      "first_seen_date": "2026-10-11",
+      "current_price": 6.2,
+      "buy_price": 6.2,
+      "target_price": 7,
+      "stop_price": 6,
+      "confidence": 76.3,
+      "reason": "20일 신고가 돌파 +3.0% · 거래량 14.3배 · 정배열 +9.7% · 당일등락 +14.2%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -4.7,
+        "win_rate": 20.0
+      },
+      "name": "디카르고"
+    }
+  ]
 }
