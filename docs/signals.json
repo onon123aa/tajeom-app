@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-15T18:00:00.419657+09:00",
+  "generated_at": "2026-10-16T01:34:03.793189+09:00",
   "signals": [
     {
       "market": "KRW-ZK",
       "first_seen_date": "2026-10-15",
-      "current_price": 24.0,
+      "current_price": 23.8,
       "buy_price": 24.0,
       "target_price": 25,
       "stop_price": 23,

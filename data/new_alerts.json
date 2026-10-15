@@ -1,18 +1,1 @@
-[
-  {
-    "market": "KRW-ZK",
-    "first_seen_date": "2026-10-15",
-    "current_price": 24.0,
-    "buy_price": 24.0,
-    "target_price": 25,
-    "stop_price": 23,
-    "confidence": 69.0,
-    "reason": "20일 신고가 돌파 +0.8% · 거래량 4.4배 · 정배열 +23.2% · 당일등락 +13.2%",
-    "days_left": 3,
-    "similar_patterns": {
-      "count": 15,
-      "avg_return_pct": -0.8,
-      "win_rate": 46.7
-    }
-  }
-]
+[]
