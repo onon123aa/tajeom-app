@@ -708,5 +708,15 @@
     "exit_reason": "stop",
     "return_pct": -4.58,
     "confidence": 69.0
+  },
+  {
+    "market": "KRW-TIA",
+    "first_seen_date": "2026-10-16",
+    "resolved_date": "2026-10-17",
+    "buy_price": 915.0,
+    "exit_price": 1000.0,
+    "exit_reason": "target",
+    "return_pct": 9.29,
+    "confidence": 62.4
   }
 ]
