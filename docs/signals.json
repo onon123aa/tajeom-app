@@ -1,4 +1,22 @@
 {
-  "generated_at": "2026-10-17T12:35:04.770867+09:00",
-  "signals": []
+  "generated_at": "2026-10-17T17:21:58.332897+09:00",
+  "signals": [
+    {
+      "market": "KRW-TIA",
+      "first_seen_date": "2026-10-17",
+      "current_price": 980.0,
+      "buy_price": 980.0,
+      "target_price": 1029,
+      "stop_price": 956,
+      "confidence": 81.3,
+      "reason": "20일 신고가 돌파 +0.7% · 거래량 2.5배 · 정배열 +19.9% · 당일등락 +5.4%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": -3.0,
+        "win_rate": 26.7
+      },
+      "name": "셀레스티아"
+    }
+  ]
 }
