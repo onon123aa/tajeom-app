@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "market": "KRW-ALT",
+    "first_seen_date": "2026-10-20",
+    "current_price": 13.9,
+    "buy_price": 13.9,
+    "target_price": 15,
+    "stop_price": 14,
+    "confidence": 70.2,
+    "reason": "20일 신고가 돌파 +5.3% · 거래량 6.5배 · 정배열 +12.5% · 당일등락 +12.1%",
+    "days_left": 3,
+    "similar_patterns": {
+      "count": 15,
+      "avg_return_pct": -0.3,
+      "win_rate": 60.0
+    }
+  },
+  {
+    "market": "KRW-GRVT",
+    "first_seen_date": "2026-10-20",
+    "current_price": 329.0,
+    "buy_price": 329.0,
+    "target_price": 345,
+    "stop_price": 321,
+    "confidence": 87.3,
+    "reason": "20일 신고가 돌파 +1.9% · 거래량 7.0배 · 정배열 +12.7% · 당일등락 +4.8%",
+    "days_left": 3,
+    "similar_patterns": {
+      "count": 10,
+      "avg_return_pct": 2.6,
+      "win_rate": 80.0
+    }
+  }
+]
