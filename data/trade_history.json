@@ -728,5 +728,15 @@
     "exit_reason": "stop",
     "return_pct": -9.39,
     "confidence": 81.3
+  },
+  {
+    "market": "KRW-ALT",
+    "first_seen_date": "2026-10-20",
+    "resolved_date": "2026-10-20",
+    "buy_price": 13.9,
+    "exit_price": 13.1,
+    "exit_reason": "stop",
+    "return_pct": -5.76,
+    "confidence": 70.2
   }
 ]
