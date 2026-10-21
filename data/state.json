@@ -1,19 +1,35 @@
 {
   "positions": {
-    "KRW-GRVT": {
-      "market": "KRW-GRVT",
-      "first_seen_date": "2026-10-20",
-      "current_price": 342.0,
-      "buy_price": 329.0,
-      "target_price": 345,
-      "stop_price": 321,
-      "confidence": 87.3,
-      "reason": "20일 신고가 돌파 +1.9% · 거래량 7.0배 · 정배열 +12.7% · 당일등락 +4.8%",
+    "KRW-DOOD": {
+      "market": "KRW-DOOD",
+      "first_seen_date": "2026-10-21",
+      "current_price": 3.72,
+      "buy_price": 3.72,
+      "target_price": 4,
+      "stop_price": 4,
+      "confidence": 42.2,
+      "reason": "20일 신고가 돌파 +6.3% · 거래량 7.0배 · 정배열 +0.5% · 당일등락 +14.5%",
       "days_left": 3,
       "similar_patterns": {
-        "count": 10,
-        "avg_return_pct": 2.6,
-        "win_rate": 80.0
+        "count": 15,
+        "avg_return_pct": -2.9,
+        "win_rate": 26.7
+      }
+    },
+    "KRW-IOST": {
+      "market": "KRW-IOST",
+      "first_seen_date": "2026-10-21",
+      "current_price": 1.59,
+      "buy_price": 1.59,
+      "target_price": 2,
+      "stop_price": 2,
+      "confidence": 57.6,
+      "reason": "20일 신고가 돌파 +7.4% · 거래량 5.2배 · 정배열 +3.2% · 당일등락 +14.4%",
+      "days_left": 3,
+      "similar_patterns": {
+        "count": 15,
+        "avg_return_pct": 9.4,
+        "win_rate": 46.7
       }
     }
   }
