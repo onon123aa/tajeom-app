@@ -748,5 +748,25 @@
     "exit_reason": "target",
     "return_pct": 6.08,
     "confidence": 87.3
+  },
+  {
+    "market": "KRW-DOOD",
+    "first_seen_date": "2026-10-21",
+    "resolved_date": "2026-10-21",
+    "buy_price": 3.72,
+    "exit_price": 3.8,
+    "exit_reason": "stop",
+    "return_pct": 2.15,
+    "confidence": 42.2
+  },
+  {
+    "market": "KRW-IOST",
+    "first_seen_date": "2026-10-21",
+    "resolved_date": "2026-10-21",
+    "buy_price": 1.59,
+    "exit_price": 1.62,
+    "exit_reason": "stop",
+    "return_pct": 1.89,
+    "confidence": 57.6
   }
 ]
